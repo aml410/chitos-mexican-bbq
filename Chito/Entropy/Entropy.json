@@ -4,11 +4,12 @@
   "ControlUniqueIds": {
     "App": 1,
     "Form1": 4,
-    "Screen1": 3
+    "Screen1": 3,
+    "Screen2": 5
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/29/2022 21:53:08",
+  "HeaderLastSavedDateTimeUTC": "09/29/2022 22:22:45",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -26,18 +27,19 @@
   "PublishOrderIndices": {
     "App": 0,
     "Form1": 0,
-    "Screen1": 0
+    "Screen1": 0,
+    "Screen2": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0639643,
+    "AnalysisLoadTime": 0.0608272,
     "ControlCount": {
       "form": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.7429675,
+    "DeserializationLoadTime": 0.4384763,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
