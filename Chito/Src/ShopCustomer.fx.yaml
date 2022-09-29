@@ -19,7 +19,7 @@ ShopCustomer As screen:
         Font: =Font.'Lato Black'
         Height: =116
         Size: =50
-        Text: ="Transactions"
+        Text: ="Shop"
         Width: =413
         X: =177
         Y: =13
