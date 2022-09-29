@@ -4,7 +4,7 @@ HomeScreenAdmin As screen:
     Rectangle2 As rectangle:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =315
-        OnSelect: =Navigate(Inventory)
+        OnSelect: =Navigate(InventoryAdmin)
         Width: =310
         X: =43
         Y: =180
@@ -14,7 +14,7 @@ HomeScreenAdmin As screen:
         Color: =RGBA(0, 0, 0, 1)
         Height: =232
         Icon: =Icon.Paste
-        OnSelect: =Navigate(Inventory)
+        OnSelect: =Navigate(InventoryAdmin)
         Width: =222
         X: =87
         Y: =196
@@ -23,6 +23,7 @@ HomeScreenAdmin As screen:
     Rectangle2_1 As rectangle:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =315
+        OnSelect: =Navigate(TransactionAdmin)
         Width: =310
         X: =410
         Y: =180
@@ -48,11 +49,56 @@ HomeScreenAdmin As screen:
         Align: =Align.Center
         Font: =Font.'Lato Black'
         Height: =83
-        OnSelect: =Navigate(Inventory)
+        OnSelect: =Navigate(InventoryAdmin)
         Size: =35
         Text: ="Inventory"
         Width: =310
         X: =43
         Y: =412
         ZIndex: =9
+
+    Rectangle1_4 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =143
+        Width: =768
+        ZIndex: =10
+
+    Image1_4 As image:
+        Height: =143
+        Image: ='Screenshot 2022-09-29 171820'
+        Width: =179
+        ZIndex: =11
+
+    Label1_4 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =116
+        Size: =50
+        Text: ="Home"
+        Width: =358
+        X: =205
+        Y: =13
+        ZIndex: =12
+
+    Icon1 As icon.ShoppingCart:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =232
+        Icon: =Icon.ShoppingCart
+        OnSelect: =Navigate(TransactionAdmin)
+        Width: =244
+        X: =443
+        Y: =196
+        ZIndex: =13
+
+    Label1_5 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =83
+        OnSelect: =Navigate(TransactionAdmin)
+        Size: =35
+        Text: ="Transactions"
+        Width: =310
+        X: =410
+        Y: =412
+        ZIndex: =14
 

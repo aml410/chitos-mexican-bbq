@@ -108,10 +108,9 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Template",
-    "Master",
-    "HomeScreenAdmin",
     "Login Screen",
-    "Inventory"
+    "HomeScreenAdmin",
+    "InventoryAdmin",
+    "TransactionAdmin"
   ]
 }
