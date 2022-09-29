@@ -110,6 +110,7 @@
   "ScreenOrder": [
     "Template",
     "Master",
-    "HomeScreen"
+    "HomeScreen",
+    "Login Screen"
   ]
 }
