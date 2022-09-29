@@ -108,9 +108,9 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Login Screen",
     "Template",
     "Master",
-    "HomeScreen",
-    "Login Screen"
+    "HomeScreen"
   ]
 }
