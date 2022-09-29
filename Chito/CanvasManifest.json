@@ -108,9 +108,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2",
     "Master",
+    "Screen2",
     "Template"
   ]
 }
