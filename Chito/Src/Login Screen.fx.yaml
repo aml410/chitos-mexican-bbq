@@ -43,12 +43,11 @@
     Button1 As button:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
         Height: =60
-        Size: =30
+        Size: =25
         Text: ="Login"
         Width: =206
-        X: =442
-        Y: =826
+        X: =281
+        Y: =806
         ZIndex: =5
 
