@@ -109,6 +109,7 @@
   },
   "ScreenOrder": [
     "Template",
-    "Master"
+    "Master",
+    "HomeScreen"
   ]
 }
