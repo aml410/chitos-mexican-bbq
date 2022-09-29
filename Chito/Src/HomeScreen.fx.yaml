@@ -1,25 +1,34 @@
-Template As screen:
+HomeScreen As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
-    Rectangle1 As rectangle:
+    Rectangle1_2 As rectangle:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =143
         Width: =768
         ZIndex: =1
 
-    Image1 As image:
+    Image1_2 As image:
         Height: =143
         Image: ='Screenshot 2022-09-29 171820'
         Width: =179
         ZIndex: =2
 
-    Label1 As label:
+    Label1_1 As label:
+        Align: =Align.Center
         Font: =Font.'Lato Black'
         Height: =116
         Size: =50
-        Text: ="Dashboard"
+        Text: ="Home"
         Width: =358
         X: =205
         Y: =13
         ZIndex: =3
+
+    Icon1 As icon.Home:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Home
+        X: =660
+        Y: =39
+        ZIndex: =4
 
