@@ -1,6 +1,6 @@
 "'Login Screen' As screen":
 
-    Image2 As image:
+    Logo As image:
         Height: =538
         Image: ='Screenshot 2022-09-29 171820'
         Width: =768
@@ -17,7 +17,7 @@
         Y: =538
         ZIndex: =2
 
-    TextInput1 As text:
+    UsernameInput As text:
         Default: =""
         Height: =83
         HintText: ="User Name"
@@ -27,7 +27,7 @@
         Y: =742
         ZIndex: =3
 
-    TextInput1_1 As text:
+    PasswordInput As text:
         Default: =""
         Height: =83
         HintText: ="Password"
@@ -38,7 +38,7 @@
         Y: =874
         ZIndex: =4
 
-    Button1 As button:
+    LoginButton As button:
         BorderThickness: =5
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)

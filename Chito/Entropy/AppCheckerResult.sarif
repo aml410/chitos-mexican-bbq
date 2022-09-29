@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Login Screen'.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "'Login Screen'.UsernameInput.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Login Screen'.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "'Login Screen'.UsernameInput.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Login Screen",
-                "type": "'Login Screen'.TextInput1"
+                "type": "'Login Screen'.UsernameInput"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Login Screen'.TextInput1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Login Screen'.PasswordInput.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Login Screen'.TextInput1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Login Screen'.PasswordInput.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Login Screen",
-                "type": "'Login Screen'.TextInput1_1"
+                "type": "'Login Screen'.PasswordInput"
               }
             }
           ],
