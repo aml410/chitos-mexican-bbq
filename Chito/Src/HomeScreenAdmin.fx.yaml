@@ -29,22 +29,6 @@ HomeScreenAdmin As screen:
         Y: =180
         ZIndex: =6
 
-    Rectangle2_2 As rectangle:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =315
-        Width: =310
-        X: =43
-        Y: =530
-        ZIndex: =7
-
-    Rectangle2_3 As rectangle:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =315
-        Width: =310
-        X: =410
-        Y: =530
-        ZIndex: =8
-
     Label1_3 As label:
         Align: =Align.Center
         Font: =Font.'Lato Black'

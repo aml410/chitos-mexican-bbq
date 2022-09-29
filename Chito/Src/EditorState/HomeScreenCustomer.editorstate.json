@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "HomeScreenAdmin": {
+    "HomeScreenCustomer": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -27,18 +27,13 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "HomeScreenAdmin",
+      "Name": "HomeScreenCustomer",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Design",
-          "PropertyName": "Fill",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "ImagePosition",
+          "PropertyName": "Width",
           "RuleProviderType": "Unknown"
         },
         {
@@ -48,17 +43,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Width",
+          "PropertyName": "ImagePosition",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "Size",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Orientation",
+          "PropertyName": "Fill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -70,12 +60,22 @@
           "Category": "Design",
           "PropertyName": "LoadingSpinnerColor",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Size",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Orientation",
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultScreenStyle",
       "Type": "ControlInfo"
     },
-    "Icon1": {
+    "Icon2_1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Icon",
@@ -126,7 +126,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Icon1",
+      "Name": "Icon2_1",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -254,7 +254,7 @@
       "StyleName": "defaultIconStyle",
       "Type": "ControlInfo"
     },
-    "Icon2": {
+    "Icon3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Icon",
@@ -305,7 +305,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Icon2",
+      "Name": "Icon3",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -433,7 +433,7 @@
       "StyleName": "defaultIconStyle",
       "Type": "ControlInfo"
     },
-    "Image1_4": {
+    "Image1_7": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -482,7 +482,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image1_4",
+      "Name": "Image1_7",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -635,7 +635,7 @@
       "StyleName": "defaultImageStyle",
       "Type": "ControlInfo"
     },
-    "Label1_3": {
+    "Label1_10": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -723,7 +723,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label1_3",
+      "Name": "Label1_10",
       "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -931,7 +931,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "Label1_4": {
+    "Label1_8": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -1011,7 +1011,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label1_4",
+      "Name": "Label1_8",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1214,7 +1214,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "Label1_5": {
+    "Label1_9": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -1302,7 +1302,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label1_5",
+      "Name": "Label1_9",
       "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1510,7 +1510,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "Rectangle1_4": {
+    "Rectangle1_7": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1545,7 +1545,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Rectangle1_4",
+      "Name": "Rectangle1_7",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1628,7 +1628,7 @@
       "StyleName": "defaultRectangleStyle",
       "Type": "ControlInfo"
     },
-    "Rectangle2": {
+    "Rectangle2_2": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1671,7 +1671,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Rectangle2",
+      "Name": "Rectangle2_2",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1759,7 +1759,7 @@
       "StyleName": "defaultRectangleStyle",
       "Type": "ControlInfo"
     },
-    "Rectangle2_1": {
+    "Rectangle2_3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1784,7 +1784,14 @@
         "ZIndex",
         "BorderThickness",
         "FocusedBorderThickness",
-        "OnSelect"
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Navigate(TransactionAdmin)",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        }
       ],
       "HasDynamicProperties": false,
       "IsAutoGenerated": false,
@@ -1795,7 +1802,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Rectangle2_1",
+      "Name": "Rectangle2_3",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1884,5 +1891,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "HomeScreenAdmin"
+  "TopParentName": "HomeScreenCustomer"
 }

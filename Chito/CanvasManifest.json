@@ -111,6 +111,9 @@
     "Login Screen",
     "HomeScreenAdmin",
     "InventoryAdmin",
-    "TransactionAdmin"
+    "TransactionAdmin",
+    "HomeScreenCustomer",
+    "ShopCustomer",
+    "OrdersCustomer"
   ]
 }
