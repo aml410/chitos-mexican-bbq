@@ -13,3 +13,13 @@ Template As screen:
         Width: =201
         ZIndex: =2
 
+    Label1 As label:
+        Font: =Font.'Lato Black'
+        Height: =150
+        Size: =50
+        Text: ="Dashboard"
+        Width: =546
+        X: =222
+        Y: =12
+        ZIndex: =3
+
