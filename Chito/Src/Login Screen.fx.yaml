@@ -9,13 +9,13 @@
 
     Label3 As label:
         Align: =Align.Center
-        FontWeight: =FontWeight.Semibold
-        Height: =156
-        Size: =83
-        Text: ="Sign-in"
-        Width: =676
-        X: =44
-        Y: =489
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        Size: =45
+        Text: ="Welcome"
+        Width: =521
+        X: =120
+        Y: =509
         ZIndex: =2
 
     TextInput1 As text:
@@ -24,8 +24,8 @@
         HintText: ="User Name"
         Size: =30
         Width: =528
-        X: =118
-        Y: =671
+        X: =117
+        Y: =713
         ZIndex: =3
 
     TextInput1_1 As text:
@@ -35,18 +35,30 @@
         Mode: =TextMode.Password
         Size: =30
         Width: =528
-        X: =118
-        Y: =803
+        X: =117
+        Y: =845
         ZIndex: =4
 
     Button1 As button:
+        BorderThickness: =5
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =60
+        Height: =80
         Size: =25
         Text: ="Login"
-        Width: =206
-        X: =279
-        Y: =968
+        Width: =223
+        X: =269
+        Y: =980
         ZIndex: =5
+
+    Label3_1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =113
+        Size: =24
+        Text: ="Please Sign-in to continue"
+        Width: =616
+        X: =72
+        Y: =600
+        ZIndex: =6
 
