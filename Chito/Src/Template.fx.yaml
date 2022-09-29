@@ -1,0 +1,25 @@
+Template As screen:
+    Fill: =RGBA(0, 0, 0, 1)
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =175
+        Width: =768
+        ZIndex: =1
+
+    Image1 As image:
+        Height: =175
+        Image: ='Screenshot 2022-09-29 171820'
+        Width: =201
+        ZIndex: =2
+
+    Label1 As label:
+        Font: =Font.'Lato Black'
+        Height: =150
+        Size: =50
+        Text: ="Dashboard"
+        Width: =546
+        X: =222
+        Y: =12
+        ZIndex: =3
+
