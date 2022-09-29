@@ -1,7 +1,0 @@
-Screen1 As screen:
-
-    Form1 As form:
-        Width: =768
-        Y: =40
-        ZIndex: =1
-

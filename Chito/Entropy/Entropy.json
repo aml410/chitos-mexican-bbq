@@ -3,17 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Form1": 4,
-    "Screen1": 3
+    "Image1": 7,
+    "Master": 5,
+    "Rectangle1": 6,
+    "Template": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/29/2022 21:53:08",
+  "HeaderLastSavedDateTimeUTC": "09/29/2022 22:20:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "Screenshot 2022-09-29 171820": "c0e0fa0a-df24-461c-8dd2-b750797a9fc5.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "Screenshot 2022-09-29 171820": "https://docserverpwaprodeus.blob.core.windows.net/18b85bfd-088c-4b78-ae85-48ebe201f25e-1/resource/bc7a6595-694e-4cca-9c0e-6f7b00fff3dc.jpg?sv=2017-04-17&sr=b&sig=aCzntkkEaeyM7vF1oECMDyopQppO8O9L3KJ5TgX98ME%3D&spr=https&se=2022-09-30T22%3A35%3A16Z&sp=r"
+  },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
@@ -21,23 +27,29 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "form": 0
+    "image": 1,
+    "rectangle": 0
   },
   "PublishOrderIndices": {
     "App": 0,
-    "Form1": 0,
-    "Screen1": 0
+    "Image1": 1,
+    "Master": 0,
+    "Rectangle1": 0,
+    "Template": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0,
+    "Image-Screenshot 2022-09-29 171820": 1
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0639643,
+    "AnalysisLoadTime": 0.074893,
     "ControlCount": {
       "form": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.7429675,
+    "DeserializationLoadTime": 0.6775405,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
