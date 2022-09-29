@@ -3,8 +3,7 @@
     Image2 As image:
         Height: =538
         Image: ='Screenshot 2022-09-29 171820'
-        Width: =678
-        X: =42
+        Width: =768
         ZIndex: =1
 
     Label3 As label:
@@ -14,8 +13,8 @@
         Size: =45
         Text: ="Welcome"
         Width: =521
-        X: =120
-        Y: =509
+        X: =124
+        Y: =538
         ZIndex: =2
 
     TextInput1 As text:
@@ -24,8 +23,8 @@
         HintText: ="User Name"
         Size: =30
         Width: =528
-        X: =117
-        Y: =713
+        X: =121
+        Y: =742
         ZIndex: =3
 
     TextInput1_1 As text:
@@ -35,8 +34,8 @@
         Mode: =TextMode.Password
         Size: =30
         Width: =528
-        X: =117
-        Y: =845
+        X: =121
+        Y: =874
         ZIndex: =4
 
     Button1 As button:
@@ -47,8 +46,8 @@
         Size: =25
         Text: ="Login"
         Width: =223
-        X: =269
-        Y: =980
+        X: =273
+        Y: =1009
         ZIndex: =5
 
     Label3_1 As label:
@@ -58,7 +57,7 @@
         Size: =24
         Text: ="Please Sign-in to continue"
         Width: =616
-        X: =72
-        Y: =600
+        X: =76
+        Y: =629
         ZIndex: =6
 
