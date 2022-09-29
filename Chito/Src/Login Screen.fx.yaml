@@ -1,0 +1,10 @@
+"'Login Screen' As screen":
+
+    Label2 As label:
+        Height: =1268
+        Text: ="Text"
+        Width: =694
+        X: =39
+        Y: =60
+        ZIndex: =1
+
