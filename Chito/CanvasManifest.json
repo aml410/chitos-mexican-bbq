@@ -108,9 +108,10 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Login Screen",
     "Template",
     "Master",
-    "HomeScreen"
+    "HomeScreenAdmin",
+    "Login Screen",
+    "Inventory"
   ]
 }

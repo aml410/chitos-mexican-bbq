@@ -1,95 +1,23 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "HomeScreen": 3,
-    "Icon1": 7,
-    "Image1": 20,
-    "Image1_1": 16,
-    "Image1_2": 5,
-    "Label1": 19,
-    "Label1_1": 6,
-    "Label3": 10,
-    "Label3_1": 21,
-    "Login Screen": 8,
-    "LoginButton": 13,
-    "Logo": 9,
-    "Master": 14,
-    "PasswordInput": 12,
-    "Rectangle1": 18,
-    "Rectangle1_1": 15,
-    "Rectangle1_2": 4,
-    "Template": 17,
-    "UsernameInput": 11
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/29/2022 23:02:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "Screenshot 2022-09-29 171820": "0001.jpg"
-  },
-  "LocalResourceRootPaths": {
-    "Screenshot 2022-09-29 171820": "https://docserverpwaprodeus.blob.core.windows.net/69e143a9-f1f5-4c12-8d02-84e3c91185a0-1/resource/Assets0Images00001.jpg?sv=2017-04-17&sr=b&sig=EBHC9e7O%2Fma8p3RMstmRz12k7avX%2BYWQLKqsMZ9Oxik%3D&spr=https&se=2022-09-30T23%3A05%3A33Z&sp=r"
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 5,
-    "icon": 3,
-    "image": 1,
-    "label": 2,
-    "rectangle": 0,
-    "text": 4
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "HomeScreen": 2,
-    "Icon1": 6,
-    "Image1": 19,
-    "Image1_1": 15,
-    "Image1_2": 4,
-    "Label1": 18,
-    "Label1_1": 5,
-    "Label3": 9,
-    "Label3_1": 9,
-    "Login Screen": 7,
-    "LoginButton": 12,
-    "Logo": 8,
-    "Master": 13,
-    "PasswordInput": 11,
-    "Rectangle1": 17,
-    "Rectangle1_1": 14,
-    "Rectangle1_2": 3,
-    "Template": 16,
-    "UsernameInput": 10
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0,
-    "Image-Screenshot 2022-09-29 171820": 1
-  },
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.1336865,
-    "ControlCount": {
-      "button": 1,
-      "icon": 1,
-      "image": 4,
-      "label": 4,
-      "rectangle": 3,
-      "screen": 4,
-      "text": 2
-    },
-    "DeserializationLoadTime": 0.5930912,
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
