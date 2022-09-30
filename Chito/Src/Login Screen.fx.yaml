@@ -8,6 +8,7 @@
 
     WelcomeLabel As label:
         Align: =Align.Center
+        Font: =Font.'Courier New'
         FontWeight: =FontWeight.Bold
         Height: =113
         Size: =45
@@ -21,6 +22,7 @@
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Default: =""
+        Font: =Font.'Courier New'
         Height: =83
         HintText: ="Username"
         Size: =30
@@ -33,6 +35,7 @@
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Default: =""
+        Font: =Font.'Courier New'
         Height: =83
         HintText: ="Password"
         Mode: =TextMode.Password
@@ -51,6 +54,7 @@
         DisabledBorderColor: =RGBA(0, 0, 0, 1)
         DisabledFill: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
         Height: =80
         Size: =25
         Text: ="Login"
@@ -61,6 +65,7 @@
 
     PlsSignIn As label:
         Align: =Align.Center
+        Font: =Font.'Courier New'
         FontWeight: =FontWeight.Semibold
         Height: =113
         Size: =24
@@ -72,12 +77,13 @@
 
     "'ForgotPW Label' As label":
         Align: =Align.Center
-        FontWeight: =FontWeight.Semibold
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
         Height: =113
-        Size: =17
+        Size: =16
         Text: ="Forgot your password? Please contract us to reset it."
-        Width: =689
-        X: =37
-        Y: =1212
+        Width: =731
+        X: =16
+        Y: =1150
         ZIndex: =7
 
