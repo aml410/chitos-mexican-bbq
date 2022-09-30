@@ -25,6 +25,7 @@
         Font: =Font.'Courier New'
         Height: =83
         HintText: ="Username"
+        HoverFill: =RGBA(0, 0, 0, 0)
         Size: =30
         Width: =528
         X: =121
@@ -38,6 +39,7 @@
         Font: =Font.'Courier New'
         Height: =83
         HintText: ="Password"
+        HoverFill: =RGBA(0, 0, 0, 0)
         Mode: =TextMode.Password
         Size: =30
         Width: =528
@@ -56,6 +58,7 @@
         Fill: =RGBA(255, 255, 255, 1)
         Font: =Font.'Courier New'
         Height: =80
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
         Size: =25
         Text: ="Login"
         Width: =223
