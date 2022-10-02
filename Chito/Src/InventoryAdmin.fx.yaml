@@ -35,3 +35,14 @@ InventoryAdmin As screen:
         Y: =39
         ZIndex: =4
 
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =746
+        Items: =Table1
+        Width: =768
+        X: =0
+        Y: =255
+        ZIndex: =5
+

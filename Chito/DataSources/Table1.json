@@ -1,0 +1,19 @@
+[
+  {
+    "Data": "[{\"Column1\":\"ID\",\"Column2\":\"Name\",\"Column3\":\"Quantity\",\"Column4\":\"Date Made\"},{\"Column1\":\"1\",\"Column2\":\"Original\",\"Column3\":\"3\",\"Column4\":\"9/25/2022 12:00:00 AM\"},{\"Column1\":\"2\",\"Column2\":\"Hot\",\"Column3\":\"5\",\"Column4\":\"9/26/2022 12:00:00 AM\"},{\"Column1\":\"3\",\"Column2\":\"Lemon Pepper\",\"Column3\":\"4\",\"Column4\":\"9/27/2022 12:00:00 AM\"},{\"Column1\":\"4\",\"Column2\":\"Sriracha\",\"Column3\":\"7\",\"Column4\":\"9/28/2022 12:00:00 AM\"},{\"Column1\":\"5\",\"Column2\":\"Garlic\",\"Column3\":\"10\",\"Column4\":\"9/29/2022 12:00:00 AM\"},{\"Column1\":\"6\",\"Column2\":\"Teriyaki\",\"Column3\":\"3\",\"Column4\":\"9/30/2022 12:00:00 AM\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table1",
+    "OrderedColumnNames": [
+      "Column1",
+      "Column2",
+      "Column3",
+      "Column4"
+    ],
+    "OriginalName": "Table1",
+    "OriginalSchema": "*[Column1:s, Column2:s, Column3:s, Column4:s]",
+    "Schema": "*[Column1:s, Column2:s, Column3:s, Column4:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
