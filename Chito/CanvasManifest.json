@@ -114,6 +114,7 @@
     "TransactionAdmin",
     "HomeScreenCustomer",
     "ShopCustomer",
-    "OrdersCustomer"
+    "OrdersCustomer",
+    "IncorrectLogin"
   ]
 }
