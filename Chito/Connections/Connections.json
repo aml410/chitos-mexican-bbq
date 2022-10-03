@@ -1,1 +1,27 @@
-{}
+{
+  "5b8a0534-db46-4739-b05a-37cdcf5af5ea": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://txst.sharepoint.com/sites/GRP-Chito'sMexicanBBQ": {
+        "dataSources": {
+          "Admin Home Page": {
+            "tableName": "c972ce68-9529-425a-a422-6970bd9e3914"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Admin Home Page"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5b8a0534-db46-4739-b05a-37cdcf5af5ea"
+  }
+}

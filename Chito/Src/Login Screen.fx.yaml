@@ -59,6 +59,10 @@
         Font: =Font.'Courier New'
         Height: =80
         HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
+        OnSelect: |-
+            =If(IsBlank(LookUp('Admin Home Page', Title=UsernameInput.Text And Password=PasswordInput.Text).Title),Navigate(HomeScreenAdmin));
+            Reset(UsernameInput);
+            Reset(PasswordInput);
         Size: =25
         Text: ="Login"
         Width: =223
