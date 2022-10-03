@@ -109,12 +109,12 @@
   },
   "ScreenOrder": [
     "Login Screen",
+    "IncorrectLogin",
     "HomeScreenAdmin",
     "InventoryAdmin",
     "TransactionAdmin",
     "HomeScreenCustomer",
     "ShopCustomer",
-    "OrdersCustomer",
-    "IncorrectLogin"
+    "OrdersCustomer"
   ]
 }
