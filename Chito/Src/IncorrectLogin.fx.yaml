@@ -39,6 +39,7 @@ IncorrectLogin As screen:
         Color: =RGBA(0, 0, 0, 1)
         Height: =91
         Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Login Screen',None)
         Width: =103
         X: =16
         Y: =43
