@@ -29,7 +29,10 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
+      "Email": "Email",
+      "FirstName": "FirstName",
       "ID": "ID",
+      "LastName": "LastName",
       "Modified": "Modified",
       "Password": "Password",
       "Title": "Title"
