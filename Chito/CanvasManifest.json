@@ -109,7 +109,9 @@
   },
   "ScreenOrder": [
     "Login Screen",
+    "Admin Login Screen",
     "IncorrectLogin",
+    "IncorrectLogin Admin",
     "HomeScreenAdmin",
     "InventoryAdmin",
     "TransactionAdmin",

@@ -1,0 +1,47 @@
+"'IncorrectLogin Admin' As screen":
+
+    "'ForgotPW Label_5' As label":
+        Align: =Align.Center
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        Size: =17
+        Text: ="Forgot your password? Please contact us to reset it."
+        Width: =731
+        X: =16
+        Y: =785
+        ZIndex: =1
+
+    Icon4_1 As icon.CancelBadge:
+        AutoDisableOnSelect: =false
+        Color: =RGBA(184, 0, 0, 1)
+        DisplayMode: =DisplayMode.View
+        Height: =230
+        Icon: =Icon.CancelBadge
+        Width: =251
+        X: =256
+        Y: =455
+        ZIndex: =2
+
+    "'ForgotPW Label_4' As label":
+        Align: =Align.Center
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        Size: =25
+        Text: ="Incorrect Login, please try again."
+        Width: =731
+        X: =16
+        Y: =696
+        ZIndex: =3
+
+    Icon5_1 As icon.ChevronLeft:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =91
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Admin Login Screen',None)
+        Width: =103
+        X: =16
+        Y: =43
+        ZIndex: =4
+

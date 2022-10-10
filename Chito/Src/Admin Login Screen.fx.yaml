@@ -1,24 +1,24 @@
-"'Login Screen' As screen":
+"'Admin Login Screen' As screen":
 
-    Logo As image:
+    Logo_1 As image:
         Height: =538
         Image: ='Screenshot 2022-09-29 171820'
         Width: =768
         ZIndex: =1
 
-    WelcomeLabel As label:
+    WelcomeLabel_1 As label:
         Align: =Align.Center
         Font: =Font.'Courier New'
         FontWeight: =FontWeight.Bold
         Height: =113
         Size: =45
-        Text: ="Welcome"
+        Text: ="Welcome Admin"
         Width: =521
         X: =121
         Y: =538
         ZIndex: =2
 
-    UsernameInput As text:
+    UsernameInput_1 As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Default: =""
@@ -32,7 +32,7 @@
         Y: =742
         ZIndex: =3
 
-    PasswordInput As text:
+    PasswordInput_1 As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Default: =""
@@ -47,7 +47,7 @@
         Y: =874
         ZIndex: =4
 
-    LoginButton As button:
+    LoginButton_1 As button:
         BorderColor: |-
             =ColorFade(Self.Fill, -15
             )
@@ -60,9 +60,9 @@
         Height: =80
         HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
         OnSelect: |-
-            =If(!IsBlank(LookUp('Admin Home Page', Title=UsernameInput.Text And Password=PasswordInput.Text).Title),Navigate(HomeScreenCustomer),Navigate(IncorrectLogin));
-            Reset(UsernameInput);
-            Reset(PasswordInput);
+            =If(!IsBlank(LookUp('Admin Home Page', Title=UsernameInput_1.Text And Password=PasswordInput_1.Text).Title),Navigate(HomeScreenAdmin),Navigate('IncorrectLogin Admin'));
+            Reset(UsernameInput_1);
+            Reset(PasswordInput_1);
         Size: =25
         Text: ="Login"
         Width: =223
@@ -70,7 +70,7 @@
         Y: =1009
         ZIndex: =5
 
-    PlsSignIn As label:
+    PlsSignIn_1 As label:
         Align: =Align.Center
         Font: =Font.'Courier New'
         FontWeight: =FontWeight.Semibold
@@ -82,7 +82,7 @@
         Y: =629
         ZIndex: =6
 
-    "'ForgotPW Label' As label":
+    "'ForgotPW Label_3' As label":
         Align: =Align.Center
         Font: =Font.'Courier New'
         FontWeight: =FontWeight.Bold
@@ -93,24 +93,4 @@
         X: =16
         Y: =1150
         ZIndex: =7
-
-    LoginButton_2 As button:
-        BorderColor: |-
-            =ColorFade(Self.Fill, -15
-            )
-        BorderThickness: =5
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 1)
-        DisabledFill: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Courier New'
-        Height: =80
-        HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
-        OnSelect: =Navigate('Admin Login Screen');
-        Size: =25
-        Text: ="Admin Login"
-        Width: =251
-        X: =496
-        Y: =1263
-        ZIndex: =8
 
