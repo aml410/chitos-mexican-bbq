@@ -94,3 +94,12 @@
         Y: =1150
         ZIndex: =7
 
+    Icon6 As icon.ChevronLeft:
+        Height: =89
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Login Screen');
+        Width: =94
+        X: =16
+        Y: =32
+        ZIndex: =8
+
