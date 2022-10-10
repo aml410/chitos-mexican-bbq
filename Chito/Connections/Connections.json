@@ -13,12 +13,16 @@
         "dataSources": {
           "Admin Home Page": {
             "tableName": "c972ce68-9529-425a-a422-6970bd9e3914"
+          },
+          "Customer Home Page": {
+            "tableName": "4ef794d7-d1e1-4f88-84f0-c93092f6167c"
           }
         }
       }
     },
     "dataSources": [
-      "Admin Home Page"
+      "Admin Home Page",
+      "Customer Home Page"
     ],
     "dependencies": {},
     "dependents": [],

@@ -79,7 +79,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/10/2022 16:20:10",
+  "HeaderLastSavedDateTimeUTC": "10/10/2022 16:20:46",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5b8a0534-db46-4739-b05a-37cdcf5af5ea": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/8ea42bd80c2048a5afcc242bf9943c3f\""
@@ -101,6 +101,7 @@
   },
   "OrderDataSource": {
     "Admin Home Page": 1,
+    "Customer Home Page": 2,
     "Table1": 0
   },
   "OrderGroupControls": {},
@@ -208,7 +209,7 @@
       "text": 4
     },
     "DeserializationLoadTime": 1.2924992,
-    "ErrorCount": 6
+    "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
