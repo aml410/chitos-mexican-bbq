@@ -60,7 +60,7 @@
         Height: =80
         HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
         OnSelect: |-
-            =If(!IsBlank(LookUp('Admin Home Page', Title=UsernameInput_1.Text And Password=PasswordInput_1.Text).Title),Navigate(HomeScreenAdmin),Navigate('IncorrectLogin Admin'));
+            =If(!IsBlank(LookUp('Admin Home Page', Username=UsernameInput_1.Text And Password=PasswordInput_1.Text).Username),Navigate(HomeScreenAdmin),Navigate('IncorrectLogin Admin'));
             Reset(UsernameInput_1);
             Reset(PasswordInput_1);
         Size: =25

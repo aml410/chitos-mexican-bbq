@@ -1,5 +1,5 @@
 InventoryAdmin As screen:
-    Fill: =RGBA(0, 0, 0, 1)
+    Fill: =RGBA(255, 255, 255, 1)
 
     Rectangle1_6 As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
@@ -40,9 +40,66 @@ InventoryAdmin As screen:
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =746
-        Items: =Table1
+        Items: |
+            =FirstN(Table1, 10)
         Width: =768
         X: =0
         Y: =255
         ZIndex: =5
+
+        Column1_Column3 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Column1"
+            FieldName: ="Column1"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Column1
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        Column2_Column3 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Column2"
+            FieldName: ="Column2"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.Column2
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        Column3_Column3 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Column3"
+            FieldName: ="Column3"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.Column3
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+        Column4_Column3 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Column4"
+            FieldName: ="Column4"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.Column4
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
 
