@@ -103,3 +103,12 @@ InventoryAdmin As screen:
             Y: =0
             ZIndex: =4
 
+    Button1 As button:
+        Height: =64
+        OnSelect: |
+            =Notify(Filter(DataTable1, Column3_Column3 < 5 ))
+        Text: ="Send Report to Owner"
+        Width: =179
+        Y: =884
+        ZIndex: =6
+
