@@ -3,6 +3,7 @@ Registration As screen:
     CustomerRegistration As form:
         BorderColor: =RGBA(0, 0, 0, 1)
         DataSource: ='Customer Home Page'
+        DefaultMode: =FormMode.New
         Height: =306
         NumberOfColumns: =1
         Width: =742
