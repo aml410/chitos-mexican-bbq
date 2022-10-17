@@ -29,6 +29,7 @@ Registration As screen:
 
             DataCardKey8 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Courier New'
                 Height: =34
                 Size: =25
@@ -99,6 +100,7 @@ Registration As screen:
 
             DataCardKey3 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Courier New'
                 Height: =34
                 Size: =25
@@ -169,6 +171,7 @@ Registration As screen:
 
             DataCardKey4 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Courier New'
                 Height: =34
                 Size: =25
@@ -239,6 +242,7 @@ Registration As screen:
 
             DataCardKey1 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Courier New'
                 Height: =34
                 Size: =25
@@ -309,6 +313,7 @@ Registration As screen:
 
             DataCardKey2 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
                 Font: =Font.'Courier New'
                 Height: =34
                 Size: =25
