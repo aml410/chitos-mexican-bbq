@@ -66,7 +66,7 @@
         Size: =25
         Text: ="Login"
         Width: =223
-        X: =273
+        X: =426
         Y: =1009
         ZIndex: =5
 
@@ -90,8 +90,8 @@
         Size: =16
         Text: ="Forgot your password? Please contact us to reset it."
         Width: =731
-        X: =16
-        Y: =1150
+        X: =18
+        Y: =1089
         ZIndex: =7
 
     LoginButton_2 As button:
@@ -113,4 +113,24 @@
         X: =496
         Y: =1263
         ZIndex: =8
+
+    LoginButton_3 As button:
+        BorderColor: |-
+            =ColorFade(Self.Fill, -15
+            )
+        BorderThickness: =5
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledFill: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        Height: =80
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
+        OnSelect: =Navigate(Registration);
+        Size: =25
+        Text: ="Register"
+        Width: =223
+        X: =121
+        Y: =1009
+        ZIndex: =9
 
