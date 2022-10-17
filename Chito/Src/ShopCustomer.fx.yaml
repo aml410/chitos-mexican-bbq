@@ -30,7 +30,7 @@ ShopCustomer As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Home
         OnSelect: |
-            =Navigate(HomeScreenAdmin)
+            =Navigate(HomeScreenCustomer)
         X: =660
         Y: =39
         ZIndex: =4
