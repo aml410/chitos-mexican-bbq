@@ -93,6 +93,7 @@ TransactionAdmin As screen:
             ZIndex: =3
 
         "'Transaction Date_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Transaction Date"
             FieldName: ="TransactionDate"
@@ -101,7 +102,7 @@ TransactionAdmin As screen:
             LayoutHeight: =Parent.Height
             Order: =4
             Text: =ThisItem.'Transaction Date'
-            Width: =100
+            Width: =189
             X: =0
             Y: =0
             ZIndex: =4

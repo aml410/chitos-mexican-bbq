@@ -11,6 +11,7 @@ AddTransaction As screen:
         ZIndex: =1
 
         "'Transaction No._DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.'Transaction No.'
@@ -45,6 +46,7 @@ AddTransaction As screen:
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                HoverBorderColor: =RGBA(0, 0, 0, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -393,6 +395,7 @@ AddTransaction As screen:
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
+                InputTextPlaceholder: ="Select Payment Status"
                 Items: =Choices([@Transaction].Status)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]

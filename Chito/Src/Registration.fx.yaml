@@ -83,6 +83,7 @@ Registration As screen:
                 ZIndex: =4
 
         FirstName_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="FirstName"
             Default: =ThisItem.FirstName
@@ -395,6 +396,7 @@ Registration As screen:
         ZIndex: =4
 
     Icon8 As icon.ArrowLeft:
+        Color: =RGBA(0, 0, 0, 1)
         Height: =77
         Icon: =Icon.ArrowLeft
         OnSelect: =ResetForm(CustomerRegistration); Navigate('Login Screen');
