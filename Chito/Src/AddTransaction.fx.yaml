@@ -28,7 +28,10 @@ AddTransaction As screen:
 
             DataCardKey5 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -97,7 +100,10 @@ AddTransaction As screen:
 
             DataCardKey6 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -164,7 +170,10 @@ AddTransaction As screen:
 
             DataCardKey7 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -229,7 +238,10 @@ AddTransaction As screen:
 
             DataCardKey9 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -294,7 +306,10 @@ AddTransaction As screen:
 
             DataCardKey10 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -362,7 +377,10 @@ AddTransaction As screen:
 
             DataCardKey11 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
