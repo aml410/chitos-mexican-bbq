@@ -120,6 +120,7 @@
     "ShopCustomer",
     "OrdersCustomer",
     "Registration",
-    "AccountMade"
+    "AccountMade",
+    "AddTransaction"
   ]
 }
