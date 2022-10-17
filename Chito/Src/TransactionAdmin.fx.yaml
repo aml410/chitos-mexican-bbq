@@ -137,6 +137,7 @@ TransactionAdmin As screen:
     Icon10 As icon.Add:
         Height: =84
         Icon: =Icon.Add
+        OnSelect: =Navigate(AddTransaction);
         Width: =85
         X: =639
         Y: =1241

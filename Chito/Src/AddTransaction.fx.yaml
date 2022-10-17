@@ -3,6 +3,7 @@ AddTransaction As screen:
     Form1 As form:
         BorderColor: =RGBA(0, 0, 0, 1)
         DataSource: =Transaction
+        DefaultMode: =FormMode.New
         Height: =380
         NumberOfColumns: =1
         Width: =768
