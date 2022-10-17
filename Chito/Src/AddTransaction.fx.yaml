@@ -443,20 +443,20 @@ AddTransaction As screen:
         ZIndex: =2
 
     Icon7_1 As icon.Check:
-        Height: =90
+        Height: =125
         Icon: =Icon.Check
         OnSelect: =SubmitForm(Form1); Navigate(TransactionAdmin);ResetForm(Form1);
-        Width: =81
+        Width: =105
         X: =625
-        Y: =1084
+        Y: =1048
         ZIndex: =3
 
     Icon8_1 As icon.ArrowLeft:
-        Height: =77
+        Height: =107
         Icon: =Icon.Cancel
         OnSelect: =ResetForm(Form1); Navigate(TransactionAdmin);
-        Width: =72
+        Width: =94
         X: =40
-        Y: =1097
+        Y: =1068
         ZIndex: =4
 
