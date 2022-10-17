@@ -29,7 +29,9 @@ Registration As screen:
 
             DataCardKey8 As label:
                 AutoHeight: =true
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =25
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -97,7 +99,9 @@ Registration As screen:
 
             DataCardKey3 As label:
                 AutoHeight: =true
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =25
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -165,7 +169,9 @@ Registration As screen:
 
             DataCardKey4 As label:
                 AutoHeight: =true
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =25
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -233,7 +239,9 @@ Registration As screen:
 
             DataCardKey1 As label:
                 AutoHeight: =true
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =25
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -301,7 +309,9 @@ Registration As screen:
 
             DataCardKey2 As label:
                 AutoHeight: =true
+                Font: =Font.'Courier New'
                 Height: =34
+                Size: =25
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
@@ -363,7 +373,7 @@ Registration As screen:
         Font: =Font.'Courier New'
         FontWeight: =FontWeight.Semibold
         Height: =113
-        Size: =24
+        Size: =30
         Text: ="Customer Registration"
         Width: =616
         X: =76
