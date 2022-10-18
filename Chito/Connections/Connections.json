@@ -17,6 +17,9 @@
           "Customer Home Page": {
             "tableName": "4ef794d7-d1e1-4f88-84f0-c93092f6167c"
           },
+          "Inventory List": {
+            "tableName": "dc8ceb1b-26b3-49fb-beb2-77e622525ad1"
+          },
           "Transaction": {
             "tableName": "23e32310-fac1-484b-a5e3-a73545fc25c2"
           }
@@ -26,7 +29,8 @@
     "dataSources": [
       "Admin Home Page",
       "Customer Home Page",
-      "Transaction"
+      "Transaction",
+      "Inventory List"
     ],
     "dependencies": {},
     "dependents": [],

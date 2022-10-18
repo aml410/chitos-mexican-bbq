@@ -121,6 +121,7 @@
     "OrdersCustomer",
     "Registration",
     "AccountMade",
-    "AddTransaction"
+    "AddTransaction",
+    "Screen1"
   ]
 }

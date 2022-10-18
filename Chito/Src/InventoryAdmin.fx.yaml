@@ -35,80 +35,98 @@ InventoryAdmin As screen:
         Y: =39
         ZIndex: =4
 
-    DataTable1 As dataTable.datatable:
+    DataTable6 As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =746
-        Items: |
-            =FirstN(Table1, 10)
+        Height: =500
+        Items: ='Inventory List'
         Width: =768
         X: =0
-        Y: =255
+        Y: =320
         ZIndex: =5
 
-        Column1_Column3 As dataTableColumn.textualColumn:
+        Code_Column6 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Column1"
-            FieldName: ="Column1"
+            FieldDisplayName: ="Code"
+            FieldName: ="Title"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =1
-            Text: =ThisItem.Column1
+            Text: =ThisItem.Code
             Width: =100
             X: =0
             Y: =0
             ZIndex: =1
 
-        Column2_Column3 As dataTableColumn.textualColumn:
+        Product_Column6 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Column2"
-            FieldName: ="Column2"
+            FieldDisplayName: ="Product"
+            FieldName: ="field_1"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =2
-            Text: =ThisItem.Column2
+            Text: =ThisItem.Product.Value;
             Width: =100
             X: =0
             Y: =0
             ZIndex: =2
 
-        Column3_Column3 As dataTableColumn.textualColumn:
+        Cost_Column6 As dataTableColumn.numberColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Column3"
-            FieldName: ="Column3"
-            FieldVariantName: ="textualColumn"
+            FieldDisplayName: ="Cost"
+            FieldName: ="field_2"
+            FieldVariantName: ="numberColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =3
-            Text: =ThisItem.Column3
+            Text: =ThisItem.Cost
             Width: =100
             X: =0
             Y: =0
             ZIndex: =3
 
-        Column4_Column3 As dataTableColumn.textualColumn:
+        Qty_Column6 As dataTableColumn.numberColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Column4"
-            FieldName: ="Column4"
-            FieldVariantName: ="textualColumn"
+            FieldDisplayName: ="Qty"
+            FieldName: ="field_3"
+            FieldVariantName: ="numberColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =4
-            Text: =ThisItem.Column4
+            Text: =ThisItem.Qty
             Width: =100
             X: =0
             Y: =0
             ZIndex: =4
 
-    Button1 As button:
-        Height: =64
-        OnSelect: |
-            =Notify(Filter(DataTable1, Column3_Column3 < 5 ))
-        Text: ="Send Report to Owner"
-        Width: =179
-        Y: =884
-        ZIndex: =6
+        Value_Column6 As dataTableColumn.numberColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Value"
+            FieldName: ="field_4"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        Attachments_Column6 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Attachments"
+            FieldName: ="{Attachments}"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.Attachments
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
 
