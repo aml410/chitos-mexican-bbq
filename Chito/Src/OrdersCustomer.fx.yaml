@@ -35,3 +35,13 @@ OrdersCustomer As screen:
         Y: =39
         ZIndex: =4
 
+    Icon1_10 As icon.Home:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ShoppingCart
+        OnSelect: |
+            =Navigate('Shopping Cart')
+        X: =532
+        Y: =39
+        ZIndex: =5
+

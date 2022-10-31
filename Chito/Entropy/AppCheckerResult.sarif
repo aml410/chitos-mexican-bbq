@@ -202,206 +202,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AddTransaction_1.Icon7_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Icon7_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 11,
-                  "snippet": {
-                    "text": "Form1_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Icon7_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Form1_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AddTransaction_1.Icon7_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Icon7_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 58,
-                  "snippet": {
-                    "text": "Form1_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Icon7_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Form1_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AddTransaction_1.Icon7_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Icon7_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 48,
-                  "snippet": {
-                    "text": "ResetForm(Form1_1)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Icon7_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ResetForm"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AddTransaction_1.Icon8_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Icon8_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 10,
-                  "snippet": {
-                    "text": "Form1_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Icon8_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Form1_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AddTransaction_1.Icon8_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Icon8_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ResetForm(Form1_1)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Icon8_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ResetForm"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Screen1.Form2.Product_DataCard1.Default"
                 }
               ],
@@ -1840,19 +1640,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Code_DataCard2.DataCardValue13.AccessibleLabel"
+                  "fullyQualifiedName": "OrdersCustomer.Icon1_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Code_DataCard2.DataCardValue13.AccessibleLabel",
+                  "fullyQualifiedName": "OrdersCustomer.Icon1_10.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "OrdersCustomer",
+                "type": "OrdersCustomer.Icon1_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "OrdersCustomer.Icon1_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "OrdersCustomer.Icon1_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Form3.Code_DataCard2.DataCardValue13"
+                "module": "OrdersCustomer",
+                "type": "OrdersCustomer.Icon1_10"
               }
             }
           ],
@@ -1870,19 +1700,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Product_DataCard2.DataCardValue17.AccessibleLabel"
+                  "fullyQualifiedName": "ShopCustomer2.Icon1_9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Product_DataCard2.DataCardValue17.AccessibleLabel",
+                  "fullyQualifiedName": "ShopCustomer2.Icon1_9.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ShopCustomer2",
+                "type": "ShopCustomer2.Icon1_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShopCustomer2.Icon1_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ShopCustomer2.Icon1_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Form3.Product_DataCard2.DataCardValue17"
+                "module": "ShopCustomer2",
+                "type": "ShopCustomer2.Icon1_9"
               }
             }
           ],
@@ -1900,19 +1760,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Cost_DataCard2.DataCardValue18.AccessibleLabel"
+                  "fullyQualifiedName": "ShopCustomer.Icon1_8.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Cost_DataCard2.DataCardValue18.AccessibleLabel",
+                  "fullyQualifiedName": "ShopCustomer.Icon1_8.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Form3.Cost_DataCard2.DataCardValue18"
+                "member": "TabIndex",
+                "module": "ShopCustomer",
+                "type": "ShopCustomer.Icon1_8"
               }
             }
           ],
@@ -1922,87 +1782,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Qty_DataCard2.DataCardValue20.AccessibleLabel"
+                  "fullyQualifiedName": "ShopCustomer.Icon1_8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Qty_DataCard2.DataCardValue20.AccessibleLabel",
+                  "fullyQualifiedName": "ShopCustomer.Icon1_8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Form3.Qty_DataCard2.DataCardValue20"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Value_DataCard2.DataCardValue21.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Value_DataCard2.DataCardValue21.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Form3.Value_DataCard2.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Attachments_DataCard1.DataCardValue22.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "AddTransaction_1.Form3.Attachments_DataCard1.DataCardValue22.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "AddTransaction_1",
-                "type": "AddTransaction_1.Form3.Attachments_DataCard1.DataCardValue22"
+                "module": "ShopCustomer",
+                "type": "ShopCustomer.Icon1_8"
               }
             }
           ],
