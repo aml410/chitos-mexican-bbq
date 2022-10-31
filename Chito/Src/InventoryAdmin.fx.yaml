@@ -134,6 +134,7 @@ InventoryAdmin As screen:
     Form3_1 As form:
         DataSource: ='Inventory List'
         Height: =469
+        NumberOfColumns: =1
         Width: =768
         Y: =780
         ZIndex: =6
@@ -145,11 +146,11 @@ InventoryAdmin As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Inventory List'],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =60
             MaxLength: =DataSourceInfo([@'Inventory List'], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue13_1.Text
-            Width: =256
+            Width: =768
             X: =0
             Y: =0
             ZIndex: =6
@@ -158,10 +159,10 @@ InventoryAdmin As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue13_1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue13_1 As text:
@@ -176,9 +177,9 @@ InventoryAdmin As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey13_1.Y + DataCardKey13_1.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey13_1.X + DataCardKey13_1.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage13_1 As label:
@@ -217,19 +218,19 @@ InventoryAdmin As screen:
             MaxLength: =DataSourceInfo([@'Inventory List'], DataSourceInfo.MaxLength, "field_1")
             Required: =false
             Update: =DataCardValue17_1.Text
-            Width: =256
-            X: =1
-            Y: =0
+            Width: =768
+            X: =0
+            Y: =1
             ZIndex: =6
 
             DataCardKey17_1 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue17_1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue17_1 As text:
@@ -244,9 +245,9 @@ InventoryAdmin As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey17_1.Y + DataCardKey17_1.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey17_1.X + DataCardKey17_1.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage17_1 As label:
@@ -284,19 +285,19 @@ InventoryAdmin As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue18_1.Text)
-            Width: =256
-            X: =2
-            Y: =0
+            Width: =768
+            X: =0
+            Y: =2
             ZIndex: =6
 
             DataCardKey18_1 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue18_1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue18_1 As text:
@@ -311,9 +312,9 @@ InventoryAdmin As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey18_1.Y + DataCardKey18_1.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey18_1.X + DataCardKey18_1.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage18_1 As label:
@@ -351,19 +352,19 @@ InventoryAdmin As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue20_1.Text)
-            Width: =256
+            Width: =768
             X: =0
-            Y: =1
+            Y: =3
             ZIndex: =6
 
             DataCardKey20_1 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue20_1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue20_1 As text:
@@ -378,9 +379,9 @@ InventoryAdmin As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey20_1.Y + DataCardKey20_1.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey20_1.X + DataCardKey20_1.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage20_1 As label:
@@ -418,19 +419,19 @@ InventoryAdmin As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue21_1.Text)
-            Width: =256
-            X: =1
-            Y: =1
+            Width: =768
+            X: =0
+            Y: =4
             ZIndex: =6
 
             DataCardKey21_1 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue21_1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue21_1 As text:
@@ -445,9 +446,9 @@ InventoryAdmin As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey21_1.Y + DataCardKey21_1.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey21_1.X + DataCardKey21_1.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage21_1 As label:
@@ -473,71 +474,6 @@ InventoryAdmin As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey21_1.Y
-                ZIndex: =4
-
-        Attachments_DataCard1_1 As typedDataCard.attachmentsEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{Attachments}"
-            Default: =ThisItem.Attachments
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Inventory List'],DataSourceInfo.DisplayName,"{Attachments}")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =270
-            Required: =false
-            Update: =DataCardValue22_1.Attachments
-            Width: =256
-            X: =2
-            Y: =1
-            ZIndex: =6
-
-            DataCardKey22_1 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue22_1 As attachments:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DisplayMode: =Parent.DisplayMode
-                IsInDataCard: =true
-                Items: =Parent.Default
-                PaddingBottom: =5
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PaddingRight: =5
-                PaddingTop: =5
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey22_1.Y + DataCardKey22_1.Height + 5
-                ZIndex: =2
-
-            ErrorMessage22_1 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue22_1.Y + DataCardValue22_1.Height
-                ZIndex: =3
-
-            StarVisible22_1 As label:
-                Align: =Align.Center
-                Height: =DataCardKey22_1.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey22_1.Y
                 ZIndex: =4
 
     Label1 As label:
