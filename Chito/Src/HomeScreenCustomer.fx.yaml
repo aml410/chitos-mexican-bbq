@@ -86,3 +86,34 @@ HomeScreenCustomer As screen:
         Y: =412
         ZIndex: =9
 
+    Rectangle2_4 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =315
+        OnSelect: =Navigate(ShopCustomer)
+        Width: =310
+        X: =43
+        Y: =560
+        ZIndex: =10
+
+    Icon3_1 As icon.Shop:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =233
+        Icon: =Icon.ShoppingCart
+        OnSelect: =Navigate(ShopCustomer)
+        Width: =268
+        X: =64
+        Y: =575
+        ZIndex: =11
+
+    Label1_14 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =83
+        OnSelect: =Navigate(ShopCustomer)
+        Size: =30
+        Text: ="Shopping Cart"
+        Width: =310
+        X: =43
+        Y: =792
+        ZIndex: =12
+
