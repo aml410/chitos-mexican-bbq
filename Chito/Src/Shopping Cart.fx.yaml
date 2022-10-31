@@ -1,0 +1,37 @@
+"'Shopping Cart' As screen":
+    Fill: =RGBA(0, 0, 0, 1)
+
+    Rectangle1_11 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =143
+        Width: =768
+        ZIndex: =1
+
+    Image1_11 As image:
+        Height: =143
+        Image: ='Screenshot 2022-09-29 171820'
+        Width: =179
+        ZIndex: =2
+
+    Label1_15 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =116
+        Size: =45
+        Text: ="Shopping Cart"
+        Width: =413
+        X: =192
+        Y: =13
+        ZIndex: =3
+
+    Icon1_7 As icon.Home:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Home
+        OnSelect: |
+            =Navigate(HomeScreenCustomer)
+        X: =660
+        Y: =39
+        ZIndex: =4
+
