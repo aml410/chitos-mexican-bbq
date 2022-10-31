@@ -38,7 +38,7 @@ Screen1 As screen:
                 DefaultSelectedItems: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 IsSearchable: =false
-                Items: =Choices([@'Inventory List'].field_1)
+                Items: =Choices([@'Inventory List'].Product)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchItems: =[]
                 SelectMultiple: =false

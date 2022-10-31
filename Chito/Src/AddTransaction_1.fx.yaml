@@ -1,144 +1,44 @@
-InventoryAdmin As screen:
-    Fill: =RGBA(255, 255, 255, 1)
-    ImagePosition: =ImagePosition.Tile
+AddTransaction_1 As screen:
 
-    Rectangle1_6 As rectangle:
-        BorderColor: =RGBA(255, 255, 255, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =143
-        Width: =768
-        ZIndex: =1
-
-    Image1_6 As image:
-        Height: =143
-        Image: ='Screenshot 2022-09-29 171820'
-        Width: =179
+    WelcomeLabel_3 As label:
+        Align: =Align.Center
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        Size: =35
+        Text: ="Add a Transaction"
+        Width: =645
+        X: =74
+        Y: =88
         ZIndex: =2
 
-    Label1_7 As label:
-        Align: =Align.Center
-        Font: =Font.'Lato Black'
-        Height: =116
-        Size: =50
-        Text: ="Inventory "
-        Width: =413
-        X: =177
-        Y: =13
+    Icon7_2 As icon.Check:
+        Height: =125
+        Icon: =Icon.Check
+        OnSelect: =SubmitForm(Form1_1); Navigate(TransactionAdmin);ResetForm(Form1_1);
+        Width: =105
+        X: =625
+        Y: =1048
         ZIndex: =3
 
-    Icon1_3 As icon.Home:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.Home
-        OnSelect: |
-            =Navigate(HomeScreenAdmin)
-        X: =660
-        Y: =39
+    Icon8_2 As icon.ArrowLeft:
+        Height: =107
+        Icon: =Icon.Cancel
+        OnSelect: =ResetForm(Form1_1); Navigate(TransactionAdmin);
+        Width: =94
+        X: =40
+        Y: =1068
         ZIndex: =4
 
-    DataTable6 As dataTable.datatable:
-        BorderStyle: =BorderStyle.Solid
-        DisplayMode: =DisplayMode.Edit
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =318
-        Items: ='Inventory List'
-        Width: =768
-        X: =0
-        Y: =320
-        ZIndex: =5
-
-        Code_Column6 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Code"
-            FieldName: ="Title"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =1
-            Text: =ThisItem.Code
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-        Product_Column6 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Product"
-            FieldName: ="field_1"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =2
-            Text: =ThisItem.Product.Value;
-            Width: =100
-            X: =220
-            Y: =0
-            ZIndex: =2
-
-        Cost_Column6 As dataTableColumn.numberColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Cost"
-            FieldName: ="field_2"
-            FieldVariantName: ="numberColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =3
-            Text: =ThisItem.Cost
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =3
-
-        Qty_Column6 As dataTableColumn.numberColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Qty"
-            FieldName: ="field_3"
-            FieldVariantName: ="numberColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =4
-            Text: =ThisItem.Qty
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =4
-
-        Value_Column6 As dataTableColumn.numberColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Value"
-            FieldName: ="field_4"
-            FieldVariantName: ="numberColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =5
-            Text: =ThisItem.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =5
-
-        Attachments_Column6 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Attachments"
-            FieldName: ="{Attachments}"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =6
-            Text: =ThisItem.Attachments
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =6
-
-    Form3_1 As form:
+    Form3 As form:
         DataSource: ='Inventory List'
         Height: =469
         Width: =768
-        Y: =780
-        ZIndex: =6
+        Y: =240
+        ZIndex: =5
 
-        Code_DataCard2_1 As typedDataCard.textualEditCard:
+        Code_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.Code
@@ -148,13 +48,13 @@ InventoryAdmin As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@'Inventory List'], DataSourceInfo.MaxLength, "Title")
             Required: =true
-            Update: =DataCardValue13_1.Text
+            Update: =DataCardValue13.Text
             Width: =256
             X: =0
             Y: =0
             ZIndex: =6
 
-            DataCardKey13_1 As label:
+            DataCardKey13 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -164,7 +64,7 @@ InventoryAdmin As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue13_1 As text:
+            DataCardValue13 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -178,10 +78,10 @@ InventoryAdmin As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey13_1.Y + DataCardKey13_1.Height + 5
+                Y: =DataCardKey13.Y + DataCardKey13.Height + 5
                 ZIndex: =2
 
-            ErrorMessage13_1 As label:
+            ErrorMessage13 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -193,20 +93,20 @@ InventoryAdmin As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue13_1.Y + DataCardValue13_1.Height
+                Y: =DataCardValue13.Y + DataCardValue13.Height
                 ZIndex: =3
 
-            StarVisible13_1 As label:
+            StarVisible13 As label:
                 Align: =Align.Center
-                Height: =DataCardKey13_1.Height
+                Height: =DataCardKey13.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey13_1.Y
+                Y: =DataCardKey13.Y
                 ZIndex: =4
 
-        Product_DataCard2_1 As typedDataCard.textualEditCard:
+        Product_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_1"
             Default: =ThisItem.Product
@@ -216,13 +116,13 @@ InventoryAdmin As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@'Inventory List'], DataSourceInfo.MaxLength, "field_1")
             Required: =false
-            Update: =DataCardValue17_1.Text
+            Update: =DataCardValue17.Text
             Width: =256
             X: =1
             Y: =0
             ZIndex: =6
 
-            DataCardKey17_1 As label:
+            DataCardKey17 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -232,7 +132,7 @@ InventoryAdmin As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue17_1 As text:
+            DataCardValue17 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -246,10 +146,10 @@ InventoryAdmin As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey17_1.Y + DataCardKey17_1.Height + 5
+                Y: =DataCardKey17.Y + DataCardKey17.Height + 5
                 ZIndex: =2
 
-            ErrorMessage17_1 As label:
+            ErrorMessage17 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -261,20 +161,20 @@ InventoryAdmin As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue17_1.Y + DataCardValue17_1.Height
+                Y: =DataCardValue17.Y + DataCardValue17.Height
                 ZIndex: =3
 
-            StarVisible17_1 As label:
+            StarVisible17 As label:
                 Align: =Align.Center
-                Height: =DataCardKey17_1.Height
+                Height: =DataCardKey17.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey17_1.Y
+                Y: =DataCardKey17.Y
                 ZIndex: =4
 
-        Cost_DataCard2_1 As typedDataCard.numberEditCard:
+        Cost_DataCard2 As typedDataCard.numberEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_2"
             Default: =ThisItem.Cost
@@ -283,13 +183,13 @@ InventoryAdmin As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue18_1.Text)
+            Update: =Value(DataCardValue18.Text)
             Width: =256
             X: =2
             Y: =0
             ZIndex: =6
 
-            DataCardKey18_1 As label:
+            DataCardKey18 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -299,7 +199,7 @@ InventoryAdmin As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue18_1 As text:
+            DataCardValue18 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -313,10 +213,10 @@ InventoryAdmin As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey18_1.Y + DataCardKey18_1.Height + 5
+                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
                 ZIndex: =2
 
-            ErrorMessage18_1 As label:
+            ErrorMessage18 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -328,20 +228,20 @@ InventoryAdmin As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue18_1.Y + DataCardValue18_1.Height
+                Y: =DataCardValue18.Y + DataCardValue18.Height
                 ZIndex: =3
 
-            StarVisible18_1 As label:
+            StarVisible18 As label:
                 Align: =Align.Center
-                Height: =DataCardKey18_1.Height
+                Height: =DataCardKey18.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey18_1.Y
+                Y: =DataCardKey18.Y
                 ZIndex: =4
 
-        Qty_DataCard2_1 As typedDataCard.numberEditCard:
+        Qty_DataCard2 As typedDataCard.numberEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
             Default: =ThisItem.Qty
@@ -350,13 +250,13 @@ InventoryAdmin As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue20_1.Text)
+            Update: =Value(DataCardValue20.Text)
             Width: =256
             X: =0
             Y: =1
             ZIndex: =6
 
-            DataCardKey20_1 As label:
+            DataCardKey20 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -366,7 +266,7 @@ InventoryAdmin As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue20_1 As text:
+            DataCardValue20 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -380,10 +280,10 @@ InventoryAdmin As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey20_1.Y + DataCardKey20_1.Height + 5
+                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
                 ZIndex: =2
 
-            ErrorMessage20_1 As label:
+            ErrorMessage20 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -395,20 +295,20 @@ InventoryAdmin As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue20_1.Y + DataCardValue20_1.Height
+                Y: =DataCardValue20.Y + DataCardValue20.Height
                 ZIndex: =3
 
-            StarVisible20_1 As label:
+            StarVisible20 As label:
                 Align: =Align.Center
-                Height: =DataCardKey20_1.Height
+                Height: =DataCardKey20.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey20_1.Y
+                Y: =DataCardKey20.Y
                 ZIndex: =4
 
-        Value_DataCard2_1 As typedDataCard.numberEditCard:
+        Value_DataCard2 As typedDataCard.numberEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_4"
             Default: =ThisItem.Value
@@ -417,13 +317,13 @@ InventoryAdmin As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue21_1.Text)
+            Update: =Value(DataCardValue21.Text)
             Width: =256
             X: =1
             Y: =1
             ZIndex: =6
 
-            DataCardKey21_1 As label:
+            DataCardKey21 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -433,7 +333,7 @@ InventoryAdmin As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue21_1 As text:
+            DataCardValue21 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -447,10 +347,10 @@ InventoryAdmin As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey21_1.Y + DataCardKey21_1.Height + 5
+                Y: =DataCardKey21.Y + DataCardKey21.Height + 5
                 ZIndex: =2
 
-            ErrorMessage21_1 As label:
+            ErrorMessage21 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -462,35 +362,35 @@ InventoryAdmin As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue21_1.Y + DataCardValue21_1.Height
+                Y: =DataCardValue21.Y + DataCardValue21.Height
                 ZIndex: =3
 
-            StarVisible21_1 As label:
+            StarVisible21 As label:
                 Align: =Align.Center
-                Height: =DataCardKey21_1.Height
+                Height: =DataCardKey21.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey21_1.Y
+                Y: =DataCardKey21.Y
                 ZIndex: =4
 
-        Attachments_DataCard1_1 As typedDataCard.attachmentsEditCard:
+        Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="{Attachments}"
             Default: =ThisItem.Attachments
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Inventory List'],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =270
+            Height: =50
             Required: =false
-            Update: =DataCardValue22_1.Attachments
+            Update: =DataCardValue22.Attachments
             Width: =256
             X: =2
             Y: =1
             ZIndex: =6
 
-            DataCardKey22_1 As label:
+            DataCardKey22 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -500,7 +400,7 @@ InventoryAdmin As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue22_1 As attachments:
+            DataCardValue22 As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DisplayMode: =Parent.DisplayMode
                 IsInDataCard: =true
@@ -512,10 +412,10 @@ InventoryAdmin As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey22_1.Y + DataCardKey22_1.Height + 5
+                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
                 ZIndex: =2
 
-            ErrorMessage22_1 As label:
+            ErrorMessage22 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -527,45 +427,16 @@ InventoryAdmin As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue22_1.Y + DataCardValue22_1.Height
+                Y: =DataCardValue22.Y + DataCardValue22.Height
                 ZIndex: =3
 
-            StarVisible22_1 As label:
+            StarVisible22 As label:
                 Align: =Align.Center
-                Height: =DataCardKey22_1.Height
+                Height: =DataCardKey22.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey22_1.Y
+                Y: =DataCardKey22.Y
                 ZIndex: =4
-
-    Label1 As label:
-        Align: =Align.Center
-        Font: =Font.'Lato Black'
-        Height: =96
-        Size: =45
-        Text: ="Add Inventory"
-        Width: =426
-        X: =171
-        Y: =661
-        ZIndex: =7
-
-    Icon8_3 As icon.ArrowLeft:
-        Height: =107
-        Icon: =Icon.Cancel
-        OnSelect: =ResetForm(Form3_1); Navigate(InventoryAdmin);
-        Width: =94
-        X: =42
-        Y: =1249
-        ZIndex: =8
-
-    Icon7_3 As icon.Check:
-        Height: =125
-        Icon: =Icon.Check
-        OnSelect: =SubmitForm(Form3_1); Navigate(InventoryAdmin);ResetForm(Form3_1);
-        Width: =105
-        X: =619
-        Y: =1241
-        ZIndex: =9
 

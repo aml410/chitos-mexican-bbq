@@ -35,3 +35,68 @@ ShopCustomer As screen:
         Y: =39
         ZIndex: =4
 
+    Image3 As image:
+        Height: =220
+        Image: ='garlic.jpg'
+        Width: =164
+        X: =518
+        Y: =520
+        ZIndex: =11
+
+    Image4 As image:
+        Height: =220
+        Image: =hot
+        Width: =170
+        X: =512
+        Y: =238
+        ZIndex: =12
+
+    Image5 As image:
+        Height: =220
+        Image: =lemonpepper
+        Width: =162
+        X: =277
+        Y: =238
+        ZIndex: =13
+
+    Image6 As image:
+        Height: =220
+        Image: =original
+        Width: =168
+        X: =48
+        Y: =238
+        ZIndex: =14
+
+    Image7 As image:
+        Height: =220
+        Image: =sriracha
+        Width: =162
+        X: =54
+        Y: =520
+        ZIndex: =15
+
+    Image8 As image:
+        Height: =220
+        Image: ='teriyaki_(1)'
+        Width: =168
+        X: =277
+        Y: =520
+        ZIndex: =16
+
+    Label2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =54
+        Size: =30
+        Text: ="Original"
+        Width: =159
+        X: =48
+        Y: =163
+        ZIndex: =17
+
+    Label3 As label:
+        Text: ="Text"
+        X: =362
+        Y: =201
+        ZIndex: =18
+
