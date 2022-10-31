@@ -26,7 +26,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Attachments_Column6",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -372,7 +372,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Cost_Column6",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6678,7 +6678,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Product_Column6",
-      "ParentIndex": 5,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6931,7 +6931,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Qty_Column6",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8701,7 +8701,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Value_Column6",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
