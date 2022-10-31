@@ -48,11 +48,11 @@ ShopCustomer As screen:
         Image: =lemonpepper
         Width: =304
         X: =418
-        Y: =773
+        Y: =752
         ZIndex: =13
 
     Image6 As image:
-        Height: =423
+        Height: =411
         Image: =original
         Width: =314
         X: =50
@@ -64,7 +64,7 @@ ShopCustomer As screen:
         Image: =sriracha
         Width: =313
         X: =50
-        Y: =773
+        Y: =752
         ZIndex: =15
 
     Label2 As label:
@@ -105,19 +105,19 @@ ShopCustomer As screen:
         Text: ="Sriracha"
         Width: =181
         X: =116
-        Y: =719
+        Y: =698
         ZIndex: =20
 
     Label2_3 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Font: =Font.'Lato Black'
-        Height: =90
+        Height: =54
         Size: =30
         Text: ="Lemon Pepper"
         Width: =288
         X: =426
-        Y: =701
+        Y: =698
         ZIndex: =21
 
     Button1 As button:
@@ -125,7 +125,7 @@ ShopCustomer As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Text: ="Add to Cart"
         X: =127
-        Y: =661
+        Y: =643
         ZIndex: =22
 
     Button1_1 As button:
@@ -133,7 +133,7 @@ ShopCustomer As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Text: ="Add to Cart"
         X: =490
-        Y: =661
+        Y: =643
         ZIndex: =23
 
     Button1_2 As button:
@@ -141,7 +141,7 @@ ShopCustomer As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Text: ="Add to Cart"
         X: =137
-        Y: =1211
+        Y: =1183
         ZIndex: =24
 
     Button1_3 As button:
@@ -149,7 +149,7 @@ ShopCustomer As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Text: ="Add to Cart"
         X: =490
-        Y: =1211
+        Y: =1183
         ZIndex: =25
 
     Icon12 As icon.ChevronRight:

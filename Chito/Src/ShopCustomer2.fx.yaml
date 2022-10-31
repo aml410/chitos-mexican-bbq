@@ -36,7 +36,7 @@ ShopCustomer2 As screen:
         ZIndex: =4
 
     Image4_1 As image:
-        Height: =411
+        Height: =423
         Image: ='teriyaki_(1)'
         Width: =326
         X: =407
@@ -52,6 +52,7 @@ ShopCustomer2 As screen:
         ZIndex: =14
 
     Label2_4 As label:
+        Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Font: =Font.'Lato Black'
         Height: =54
