@@ -118,6 +118,7 @@
     "TransactionAdmin",
     "HomeScreenCustomer",
     "ShopCustomer",
+    "ShopCustomer2",
     "OrdersCustomer",
     "Registration",
     "AccountMade",
