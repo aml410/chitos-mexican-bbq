@@ -1,4 +1,4 @@
-HomeScreenCustoer2 As screen:
+HomeScreenCustomer2 As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
     Rectangle1 As rectangle:
