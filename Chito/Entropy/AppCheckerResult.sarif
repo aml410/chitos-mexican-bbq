@@ -132,46 +132,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ShopCustomer.Button1.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ShopCustomer.Button1.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 65,
-                  "snippet": {
-                    "text": "ogQty"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ShopCustomer",
-                "type": "ShopCustomer.Button1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ogQty"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "InventoryAdmin.DataTable6.Product_Column6.Text"
                 }
               ],
