@@ -49,9 +49,10 @@ HomeScreenAdmin As screen:
         Color: =RGBA(255, 255, 255, 1)
         Font: =Font.Verdana
         Height: =90
+        OnSelect: =Navigate(InventoryAdmin)
         Size: =40
         Text: ="Inventory "
-        Width: =326
+        Width: =278
         X: =114
         Y: =162
         ZIndex: =8
@@ -76,9 +77,10 @@ HomeScreenAdmin As screen:
         Color: =RGBA(255, 255, 255, 1)
         Font: =Font.Verdana
         Height: =90
+        OnSelect: =Navigate(TransactionAdmin)
         Size: =40
         Text: ="Transactions "
-        Width: =408
+        Width: =348
         X: =114
         Y: =293
         ZIndex: =11
