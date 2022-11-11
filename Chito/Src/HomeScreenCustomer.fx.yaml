@@ -58,7 +58,7 @@ HomeScreenCustomer As screen:
     Icon1 As icon.Shop:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Shop
-        OnSelect: =Navigate(ShopCustomer)
+        OnSelect: =Navigate(ShopCustomer_1)
         X: =22
         Y: =176
         ZIndex: =7
