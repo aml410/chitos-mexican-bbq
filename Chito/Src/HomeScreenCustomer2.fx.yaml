@@ -1,0 +1,15 @@
+HomeScreenCustomer2 As screen:
+    Fill: =RGBA(0, 0, 0, 1)
+
+    Icon2_5 As icon.Paste:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =6
+        Height: =81
+        Icon: =Icon.Leave
+        OnSelect: = Navigate('Login Screen'); Exit(true);
+        Width: =113
+        X: =655
+        Y: =1250
+        ZIndex: =16
+

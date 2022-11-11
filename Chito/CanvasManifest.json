@@ -114,7 +114,6 @@
     "Admin Login Screen",
     "IncorrectLogin",
     "IncorrectLogin Admin",
-    "HomeScreenAdmin",
     "InventoryAdmin",
     "TransactionAdmin",
     "ShopCustomer",
@@ -126,7 +125,9 @@
     "AddTransaction",
     "Screen1",
     "HomeScreenCustomer",
-    "HomeScreenCustoer2",
-    "ShopCustomer_1"
+    "HomeScreenCustomer2",
+    "ShopCustomer_1",
+    "HomeScreenAdmin",
+    "HomeScreenAdmin2"
   ]
 }
