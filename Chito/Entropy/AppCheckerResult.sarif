@@ -442,6 +442,237 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Image1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Image1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": ".X"
+                  }
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3.Title3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": "Image1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Image1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.X",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": ".Width"
+                  }
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3.Title3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.Width",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 23,
+                  "snippet": {
+                    "text": "Image1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Image1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.Title3.Width",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 29,
+                  "snippet": {
+                    "text": ".Width"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3.Title3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Admin Login Screen'.Icon6.AccessibleLabel"
                 }
               ],
@@ -4095,6 +4326,66 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Gallery3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Shopping Cart",
+                "type": "'Shopping Cart'.Gallery2.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 9
         }
       ],
       "tool": {
