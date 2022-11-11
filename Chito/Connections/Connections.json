@@ -20,6 +20,9 @@
           "Inventory List": {
             "tableName": "dc8ceb1b-26b3-49fb-beb2-77e622525ad1"
           },
+          "Product List": {
+            "tableName": "78bc832f-2d3b-4a5f-97c6-70d0bb28493d"
+          },
           "Transaction": {
             "tableName": "23e32310-fac1-484b-a5e3-a73545fc25c2"
           }
@@ -30,7 +33,8 @@
       "Admin Home Page",
       "Customer Home Page",
       "Transaction",
-      "Inventory List"
+      "Inventory List",
+      "Product List"
     ],
     "dependencies": {},
     "dependents": [],
