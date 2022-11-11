@@ -19,15 +19,16 @@
       "blockmovingcontrol": true,
       "cdsdataformatting": false,
       "classiccontrols": false,
+      "consistentreturnschemafortabularfunctions": false,
       "copyandmerge": true,
       "datatablev2control": true,
       "delaycontrolrendering": false,
       "delayloadscreens": true,
       "disablecdsfileandlargeimage": false,
+      "disablecommandbar": false,
       "dynamicschema": false,
       "enableappembeddingux": false,
       "enablebarcodereaderfeature": false,
-      "enablecommandbar": true,
       "enablecomponentnamemaps": false,
       "enablecomponentscopeoldbehavior": false,
       "enableeditcacherefreshfrequency": false,
@@ -116,7 +117,6 @@
     "HomeScreenAdmin",
     "InventoryAdmin",
     "TransactionAdmin",
-    "HomeScreenCustomer",
     "ShopCustomer",
     "ShopCustomer2",
     "Shopping Cart",
@@ -124,6 +124,8 @@
     "Registration",
     "AccountMade",
     "AddTransaction",
-    "Screen1"
+    "Screen1",
+    "HomeScreenCustomer",
+    "HomeScreenCustoer2"
   ]
 }

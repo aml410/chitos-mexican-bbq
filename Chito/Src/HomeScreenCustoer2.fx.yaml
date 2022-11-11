@@ -1,0 +1,140 @@
+HomeScreenCustoer2 As screen:
+    Fill: =RGBA(0, 0, 0, 1)
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =120
+        Width: =768
+        Y: =263
+        ZIndex: =1
+
+    Rectangle1_1 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =120
+        Width: =768
+        Y: =143
+        ZIndex: =2
+
+    Rectangle1_12 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =143
+        Width: =768
+        ZIndex: =3
+
+    Image1_12 As image:
+        Height: =143
+        Image: ='Screenshot 2022-09-29 171820'
+        Width: =179
+        ZIndex: =4
+
+    Label1_18 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =116
+        Size: =50
+        Text: ="Home"
+        Width: =358
+        X: =205
+        Y: =13
+        ZIndex: =5
+
+    Rectangle1_2 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =120
+        Width: =768
+        Y: =383
+        ZIndex: =6
+
+    Label4 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =87
+        Size: =40
+        Text: ="Shop"
+        Width: =159
+        X: =116
+        Y: =159
+        ZIndex: =7
+
+    Icon3_2 As icon.Shop:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Shop
+        OnSelect: =Navigate(ShopCustomer)
+        Width: =74
+        X: =25
+        Y: =170
+        ZIndex: =8
+
+    Label4_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =87
+        Size: =40
+        Text: ="Orders"
+        Width: =183
+        X: =116
+        Y: =279
+        ZIndex: =9
+
+    Icon2_4 As icon.Paste:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Paste
+        OnSelect: =Navigate(OrdersCustomer)
+        Width: =74
+        X: =25
+        Y: =291
+        ZIndex: =10
+
+    Label4_2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =87
+        Size: =40
+        Text: ="Shopping Cart"
+        Width: =429
+        X: =116
+        Y: =399
+        ZIndex: =11
+
+    Icon3_3 As icon.Shop:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ShoppingCart
+        OnSelect: =Navigate('Shopping Cart')
+        Width: =74
+        X: =25
+        Y: =410
+        ZIndex: =12
+
+    Icon11 As icon.ChevronRight:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.ChevronRight
+        Width: =57
+        X: =686
+        Y: =177
+        ZIndex: =13
+
+    Icon11_1 As icon.ChevronRight:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.ChevronRight
+        Width: =57
+        X: =686
+        Y: =303
+        ZIndex: =14
+
+    Icon11_2 As icon.ChevronRight:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.ChevronRight
+        Width: =57
+        X: =686
+        Y: =417
+        ZIndex: =15
+
