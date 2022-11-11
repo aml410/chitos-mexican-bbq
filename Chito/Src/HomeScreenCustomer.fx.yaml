@@ -69,7 +69,7 @@ HomeScreenCustomer As screen:
         Height: =90
         Size: =40
         Text: ="Shop"
-        Width: =326
+        Width: =156
         X: =114
         Y: =162
         ZIndex: =8
@@ -96,7 +96,7 @@ HomeScreenCustomer As screen:
         Height: =90
         Size: =40
         Text: ="Orders"
-        Width: =226
+        Width: =206
         X: =114
         Y: =293
         ZIndex: =11
@@ -107,7 +107,7 @@ HomeScreenCustomer As screen:
         Height: =90
         Size: =40
         Text: ="Sopping Cart"
-        Width: =383
+        Width: =371
         X: =114
         Y: =423
         ZIndex: =12
