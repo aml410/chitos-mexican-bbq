@@ -132,6 +132,86 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "ShopCustomer_1.Gallery1.Button2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ShopCustomer_1.Gallery1.Button2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 108,
+                  "snippet": {
+                    "text": ".qtyInput1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "ShopCustomer_1",
+                "type": "ShopCustomer_1.Gallery1.Button2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "qtyInput1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShopCustomer_1.Gallery1.qtyInput1.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ShopCustomer_1.Gallery1.qtyInput1.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": ".qtyInput1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "ShopCustomer_1",
+                "type": "ShopCustomer_1.Gallery1.qtyInput1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "qtyInput1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "InventoryAdmin.DataTable6.Product_Column6.Text"
                 }
               ],
@@ -1903,6 +1983,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ShopCustomer_1.Gallery1.qtyInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ShopCustomer_1.Gallery1.qtyInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ShopCustomer_1",
+                "type": "ShopCustomer_1.Gallery1.qtyInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
         },
         {
           "locations": [
