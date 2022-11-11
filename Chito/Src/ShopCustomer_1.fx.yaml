@@ -109,7 +109,7 @@ ShopCustomer_1 As screen:
         Size: =18
         Text: ="Add to Cart"
         Width: =177
-        X: =532
-        Y: =232
+        X: =508
+        Y: =240
         ZIndex: =29
 
