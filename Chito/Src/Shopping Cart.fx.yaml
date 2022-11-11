@@ -1,4 +1,5 @@
 "'Shopping Cart' As screen":
+    BackgroundImage: =
     Fill: =RGBA(0, 0, 0, 1)
 
     Rectangle1_11 As rectangle:
@@ -8,43 +9,53 @@
         Width: =768
         ZIndex: =1
 
-    "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
-        Fill: =RGBA(255, 255, 255, 1)
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Items: =colProductOrder
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =Min(104, Self.Height - 60)
-        X: =119
-        Y: =329
+        TemplateSize: =Min(160, Self.Height - 60)
+        X: =64
+        Y: =301
         ZIndex: =1
 
-        Title5 As label:
-            Height: =Self.Size * 1.8
+        Image3 As image:
+            Height: =128
+            Image: =ThisItem.Image
             OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Name
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =16
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
-        Subtitle5 As label:
+        Title4 As label:
+            Color: =RGBA(255, 255, 255, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Quantity
+            Text: =ThisItem.Item
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Title5.Y + Title5.Height + 4
+            Width: =Parent.TemplateWidth - Image3.Width - 104
+            X: =Image3.X + Image3.Width + 24
+            Y: =44
             ZIndex: =2
+
+        Subtitle4 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Price
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title4.Width
+            X: =Title4.X
+            Y: =Title4.Y + Title4.Height + 4
+            ZIndex: =3
 
         NextArrow3 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
@@ -60,14 +71,14 @@
             Width: =60
             X: =Parent.TemplateWidth - Self.Width - 5
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =3
+            ZIndex: =4
 
-        Separator5 As rectangle:
+        Separator4 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
-            ZIndex: =4
+            ZIndex: =5
 
     Image1_11 As image:
         Height: =143

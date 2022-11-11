@@ -65,7 +65,7 @@ ShopCustomer_1 As screen:
             Height: =77
             HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
             OnSelect: |-
-                =Collect(colProductOrder,{ID:ThisItem.ID, Item: ThisItem, Price:ThisItem.Price, Image:ThisItem.Image})
+                =Collect(colProductOrder,{Item: ThisItem.Title, Price:ThisItem.Price, Image:ThisItem.Image})
             Size: =18
             Text: ="Add to Cart"
             Width: =197
