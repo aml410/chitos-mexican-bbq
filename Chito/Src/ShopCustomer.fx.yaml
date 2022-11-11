@@ -124,7 +124,7 @@ ShopCustomer As screen:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
         OnSelect: |-
-            =Collect(colProductOrder, {ID: "J01", Name: "Original", Quantity: ogQty}
+            =Collect(colProductOrder, {ID: "J01", Name: "Original", Quantity: ogQty})
         Text: ="Add to Cart"
         X: =127
         Y: =643
