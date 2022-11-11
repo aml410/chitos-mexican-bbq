@@ -57,9 +57,9 @@ ShopCustomer2 As screen:
         Font: =Font.'Lato Black'
         Height: =54
         Size: =30
-        Text: ="Garlic"
-        Width: =159
-        X: =127
+        Text: ="Garlic - $8"
+        Width: =222
+        X: =96
         Y: =161
         ZIndex: =17
 
@@ -73,12 +73,11 @@ ShopCustomer2 As screen:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Font: =Font.'Lato Black'
-        Height: =54
         Size: =30
-        Text: ="Teriyaki"
-        Width: =159
-        X: =490
-        Y: =161
+        Text: ="Teriyaki - $8"
+        Width: =243
+        X: =448
+        Y: =168
         ZIndex: =19
 
     Button1_4 As button:
