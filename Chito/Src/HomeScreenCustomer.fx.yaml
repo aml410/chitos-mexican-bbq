@@ -106,8 +106,8 @@ HomeScreenCustomer As screen:
         Font: =Font.Verdana
         Height: =90
         Size: =40
-        Text: ="Sopping Cart"
-        Width: =371
+        Text: ="Shopping Cart"
+        Width: =394
         X: =114
         Y: =423
         ZIndex: =12
