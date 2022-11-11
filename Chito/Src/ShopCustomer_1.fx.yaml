@@ -2,7 +2,7 @@ ShopCustomer_1 As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Height: =1113
+        Height: =1158
         Items: ='Product List'
         Layout: =Layout.Vertical
         TemplatePadding: =0
