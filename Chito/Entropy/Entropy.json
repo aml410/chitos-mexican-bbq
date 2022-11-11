@@ -220,7 +220,6 @@
     "Qty_Column6": 255,
     "Qty_DataCard1": 86,
     "Qty_DataCard2_1": 275,
-    "qtyInput1": 303,
     "Rectangle1": 204,
     "Rectangle1_1": 208,
     "Rectangle1_10": 56,
@@ -287,7 +286,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/11/2022 19:23:39",
+  "HeaderLastSavedDateTimeUTC": "11/11/2022 19:24:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5b8a0534-db46-4739-b05a-37cdcf5af5ea": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/fa89c5ded86b4909bed5a1d5c44bb45d\""
@@ -561,7 +560,6 @@
     "Qty_Column6": 33,
     "Qty_DataCard1": 208,
     "Qty_DataCard2_1": 53,
-    "qtyInput1": 244,
     "Rectangle1": 221,
     "Rectangle1_1": 225,
     "Rectangle1_10": 96,
@@ -660,7 +658,7 @@
       "typedDataCard": 21
     },
     "DeserializationLoadTime": 4.3489118,
-    "ErrorCount": 10
+    "ErrorCount": 8
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
