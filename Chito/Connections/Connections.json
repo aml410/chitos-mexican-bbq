@@ -23,6 +23,9 @@
           "Product List": {
             "tableName": "78bc832f-2d3b-4a5f-97c6-70d0bb28493d"
           },
+          "Product Order": {
+            "tableName": "19362ebd-03dd-4c7d-8796-4b7bbf72dd4e"
+          },
           "Transaction": {
             "tableName": "23e32310-fac1-484b-a5e3-a73545fc25c2"
           }
@@ -34,7 +37,8 @@
       "Customer Home Page",
       "Transaction",
       "Inventory List",
-      "Product List"
+      "Product List",
+      "Product Order"
     ],
     "dependencies": {},
     "dependents": [],

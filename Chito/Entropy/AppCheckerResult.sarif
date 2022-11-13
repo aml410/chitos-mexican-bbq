@@ -532,19 +532,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Shopping Cart",
-                "type": "'Shopping Cart'.Gallery2"
+                "type": "'Shopping Cart'.GalCart"
               }
             }
           ],
@@ -562,19 +562,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.TabIndex"
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.TabIndex",
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Shopping Cart",
-                "type": "'Shopping Cart'.Gallery2"
+                "type": "'Shopping Cart'.GalCart"
               }
             }
           ],
@@ -2962,6 +2962,216 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "CheckoutCustomer.txtPhone.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CheckoutCustomer.txtPhone.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "CheckoutCustomer",
+                "type": "CheckoutCustomer.txtPhone"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "CheckoutCustomer",
+                "type": "CheckoutCustomer.Icon1_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CheckoutCustomer.TxtShipping.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CheckoutCustomer.TxtShipping.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "CheckoutCustomer",
+                "type": "CheckoutCustomer.TxtShipping"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CheckoutCustomer.TxtOrderBy.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CheckoutCustomer.TxtOrderBy.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "CheckoutCustomer",
+                "type": "CheckoutCustomer.TxtOrderBy"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "CheckoutCustomer",
+                "type": "CheckoutCustomer.Icon1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "CheckoutCustomer",
+                "type": "CheckoutCustomer.Icon1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_13.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "CheckoutCustomer.Icon1_13.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "CheckoutCustomer",
+                "type": "CheckoutCustomer.Icon1_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "ShopCustomer.Icon1_12.AccessibleLabel"
                 }
               ],
@@ -3142,19 +3352,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Icon16.AccessibleLabel"
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.Icon16.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Icon16.AccessibleLabel",
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.Icon16.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Shopping Cart",
-                "type": "'Shopping Cart'.Gallery2.Icon16"
+                "type": "'Shopping Cart'.GalCart.Icon16"
               }
             }
           ],
@@ -3172,19 +3382,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Icon16.TabIndex"
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.Icon16.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.Icon16.TabIndex",
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.Icon16.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Shopping Cart",
-                "type": "'Shopping Cart'.Gallery2.Icon16"
+                "type": "'Shopping Cart'.GalCart.Icon16"
               }
             }
           ],
@@ -3202,19 +3412,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.txtQuantity.AccessibleLabel"
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.txtQuantity.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Shopping Cart'.Gallery2.txtQuantity.AccessibleLabel",
+                  "fullyQualifiedName": "'Shopping Cart'.GalCart.txtQuantity.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Shopping Cart",
-                "type": "'Shopping Cart'.Gallery2.txtQuantity"
+                "type": "'Shopping Cart'.GalCart.txtQuantity"
               }
             }
           ],
