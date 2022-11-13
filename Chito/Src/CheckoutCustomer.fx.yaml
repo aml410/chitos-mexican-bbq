@@ -127,7 +127,7 @@ CheckoutCustomer As screen:
                         Title:ThisRecord.Title, 
                         'Price Per Item':ThisRecord.Price,
                         Quantity:Value(ThisRecord.txtQuantity.Text),
-                        'Total Price':ThisRecord.Price*Value(ThisRecord.txtQuantity.Text),
+                        'Total Price':(Round(ThisRecord.Price*Value(ThisRecord.txtQuantity.Text)*.0825,2))+(ThisRecord.Price*Value         (ThisRecord.txtQuantity.Text)),
                         'Ordered By':TxtOrderBy.Text,
                         'Shipping Address':TxtShipping.Text,
                         'Phone Number':txtPhone.Text
