@@ -133,7 +133,9 @@ CheckoutCustomer As screen:
                         'Phone Number':txtPhone.Text
                     }
                 )
-            )
+            );
+            
+            Clear(colProductOrder);
         Size: =27
         Text: ="Place Order"
         Width: =307
