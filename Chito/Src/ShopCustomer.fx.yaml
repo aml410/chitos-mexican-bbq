@@ -1,20 +1,85 @@
 ShopCustomer As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
-    Rectangle1_8 As rectangle:
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =1220
+        Items: ='Product List'
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =768
+        Y: =146
+        ZIndex: =28
+
+        Image2 As image:
+            Height: =128
+            Image: =ThisItem.Image
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2.Width - 104
+            X: =Image2.X + Image2.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: ="$"&ThisItem.Price
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title1.Width
+            X: =Title1.X
+            Y: =Title1.Y + Title1.Height + 4
+            ZIndex: =3
+
+        Separator1 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+        Button2 As button:
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =77
+            HoverFill: =ColorFade(RGBA(0, 0, 0, 1), -20%)
+            OnSelect: |-
+                =Collect(colProductOrder,{Item: ThisItem.Title, Price:ThisItem.Price, Image:ThisItem.Image})
+            Size: =18
+            Text: ="Add to Cart"
+            Width: =197
+            X: =543
+            Y: =44
+            ZIndex: =6
+
+    Rectangle1_13 As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =143
         Width: =768
-        ZIndex: =1
+        ZIndex: =30
 
-    Image1_8 As image:
-        Height: =143
-        Image: ='Screenshot 2022-09-29 171820'
-        Width: =179
-        ZIndex: =2
-
-    Label1_11 As label:
+    Label1_19 As label:
         Align: =Align.Center
         Font: =Font.'Lato Black'
         Height: =116
@@ -23,9 +88,9 @@ ShopCustomer As screen:
         Width: =413
         X: =177
         Y: =13
-        ZIndex: =3
+        ZIndex: =31
 
-    Icon1_4 As icon.Home:
+    Icon1_11 As icon.Home:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Home
@@ -33,137 +98,9 @@ ShopCustomer As screen:
             =Navigate(HomeScreenCustomer)
         X: =660
         Y: =39
-        ZIndex: =4
+        ZIndex: =32
 
-    Image4 As image:
-        Height: =411
-        Image: =hot
-        Width: =326
-        X: =407
-        Y: =220
-        ZIndex: =12
-
-    Image5 As image:
-        Height: =423
-        Image: =lemonpepper
-        Width: =304
-        X: =418
-        Y: =752
-        ZIndex: =13
-
-    Image6 As image:
-        Height: =411
-        Image: =original
-        Width: =314
-        X: =50
-        Y: =220
-        ZIndex: =14
-
-    Image7 As image:
-        Height: =423
-        Image: =sriracha
-        Width: =313
-        X: =50
-        Y: =752
-        ZIndex: =15
-
-    Label2 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Lato Black'
-        Height: =54
-        Size: =30
-        Text: ="Original -$8"
-        Width: =254
-        X: =79
-        Y: =161
-        ZIndex: =17
-
-    Label3 As label:
-        Text: ="Text"
-        X: =382
-        Y: =201
-        ZIndex: =18
-
-    Label2_1 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Lato Black'
-        Height: =54
-        Size: =30
-        Text: ="Hot - $8"
-        Width: =159
-        X: =490
-        Y: =161
-        ZIndex: =19
-
-    Label2_2 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Lato Black'
-        Height: =54
-        Size: =30
-        Text: ="Sriracha - $8"
-        Width: =266
-        X: =74
-        Y: =698
-        ZIndex: =20
-
-    Label2_3 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Lato Black'
-        Height: =54
-        Size: =30
-        Text: ="Lemon Pepper - $8"
-        Width: =365
-        X: =387
-        Y: =698
-        ZIndex: =21
-
-    Button1 As button:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        OnSelect: =
-        Text: ="Add to Cart"
-        X: =127
-        Y: =643
-        ZIndex: =22
-
-    Button1_1 As button:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Text: ="Add to Cart"
-        X: =500
-        Y: =646
-        ZIndex: =23
-
-    Button1_2 As button:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Text: ="Add to Cart"
-        X: =126
-        Y: =1182
-        ZIndex: =24
-
-    Button1_3 As button:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Text: ="Add to Cart"
-        X: =500
-        Y: =1183
-        ZIndex: =25
-
-    Icon12 As icon.ChevronRight:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =77
-        Icon: =Icon.ChevronRight
-        OnSelect: =Navigate(ShopCustomer2);
-        Width: =102
-        X: =660
-        Y: =1275
-        ZIndex: =26
-
-    Icon1_8 As icon.Home:
+    Icon1_12 As icon.Home:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ShoppingCart
@@ -171,5 +108,11 @@ ShopCustomer As screen:
             =Navigate('Shopping Cart')
         X: =532
         Y: =39
-        ZIndex: =27
+        ZIndex: =33
+
+    Image1_13 As image:
+        Height: =143
+        Image: ='Screenshot 2022-09-29 171820'
+        Width: =179
+        ZIndex: =34
 

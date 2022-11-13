@@ -116,16 +116,13 @@
     "IncorrectLogin Admin",
     "InventoryAdmin",
     "TransactionAdmin",
-    "ShopCustomer",
-    "ShopCustomer2",
     "Shopping Cart",
     "OrdersCustomer",
     "Registration",
     "AccountMade",
     "AddTransaction",
-    "Screen1",
     "HomeScreenCustomer",
-    "ShopCustomer_1",
+    "ShopCustomer",
     "HomeScreenAdmin"
   ]
 }

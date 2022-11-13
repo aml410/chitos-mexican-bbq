@@ -146,8 +146,8 @@
         Size: =20
         Text: |-
             ="Subtotal:"
-        X: =12
-        Y: =1240
+        X: =468
+        Y: =1136
         ZIndex: =5
 
     Label5_1 As label:
@@ -156,8 +156,8 @@
         Size: =20
         Text: |-
             ="Tax:"
-        X: =12
-        Y: =1280
+        X: =468
+        Y: =1176
         ZIndex: =6
 
     Label5_2 As label:
@@ -166,24 +166,24 @@
         Size: =20
         Text: |-
             ="Total:"
-        X: =12
-        Y: =1320
+        X: =468
+        Y: =1216
         ZIndex: =7
 
     Label6 As label:
         Color: =RGBA(255, 255, 255, 1)
         Size: =20
         Text: ="$" & CountRows(colProductOrder) * 8
-        X: =162
-        Y: =1240
+        X: =618
+        Y: =1136
         ZIndex: =8
 
     Label6_1 As label:
         Color: =RGBA(255, 255, 255, 1)
         Size: =20
         Text: ="$" & Round(CountRows(colProductOrder) * .0825, 2) 
-        X: =162
-        Y: =1283
+        X: =618
+        Y: =1179
         ZIndex: =9
 
     Label6_2 As label:
@@ -191,8 +191,8 @@
         Size: =20
         Text: |
             ="$" & Round(CountRows(colProductOrder) * .0825, 2) + CountRows(colProductOrder) * 8
-        X: =162
-        Y: =1323
+        X: =618
+        Y: =1219
         ZIndex: =10
 
     Button3 As button:
@@ -200,9 +200,22 @@
         Fill: =RGBA(255, 255, 255, 1)
         Height: =57
         OnSelect: =Clear(colProductOrder)
+        Size: =18
         Text: ="Clear Cart"
         Width: =178
-        X: =33
-        Y: =1160
+        X: =14
+        Y: =1170
         ZIndex: =11
+
+    Button3_1 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =69
+        OnSelect: =
+        Size: =18
+        Text: ="Checkout"
+        Width: =200
+        X: =516
+        Y: =1273
+        ZIndex: =12
 
