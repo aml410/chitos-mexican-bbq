@@ -185,7 +185,8 @@
         Color: =RGBA(255, 255, 255, 1)
         Size: =20
         Text: |
-            ="$"& Value(Label7.Text)
+            =ForAll
+                (GalCart & "$"& Value(Label7.Text)
         X: =618
         Y: =1136
         ZIndex: =8
