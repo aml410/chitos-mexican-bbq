@@ -121,6 +121,7 @@
     "CheckoutCustomer",
     "Registration",
     "AccountMade",
+    "OrderSubmitted",
     "AddTransaction",
     "HomeScreenCustomer",
     "ShopCustomer",

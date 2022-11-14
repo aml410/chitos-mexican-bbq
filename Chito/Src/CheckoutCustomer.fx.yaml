@@ -136,6 +136,7 @@ CheckoutCustomer As screen:
             );
             
             Clear(colProductOrder);
+            Navigate(OrderSubmitted);
         Size: =27
         Text: ="Place Order"
         Width: =307
