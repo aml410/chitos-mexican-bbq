@@ -184,9 +184,7 @@
     Label6 As label:
         Color: =RGBA(255, 255, 255, 1)
         Size: =20
-        Text: |-
-            =CountRows(colProductOrder) * 
-            8
+        Text: ="$" & CountRows(colProductOrder) * Value(Label7.Text)
         X: =618
         Y: =1136
         ZIndex: =8
