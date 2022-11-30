@@ -108,7 +108,7 @@ OrdersAdmin As screen:
             Order: =4
             Text: =ThisItem.'Shipping Address'
             Width: =100
-            X: =0
+            X: =452
             Y: =0
             ZIndex: =4
 
@@ -153,18 +153,4 @@ OrdersAdmin As screen:
             X: =0
             Y: =0
             ZIndex: =7
-
-        Attachments_Column1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Attachments"
-            FieldName: ="{Attachments}"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =8
-            Text: =ThisItem.Attachments
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =8
 
