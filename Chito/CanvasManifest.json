@@ -118,6 +118,7 @@
     "TransactionAdmin",
     "Shopping Cart",
     "OrdersCustomer",
+    "OrdersAdmin",
     "CheckoutCustomer",
     "Registration",
     "AccountMade",

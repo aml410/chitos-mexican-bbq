@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "Attachments_Column1_1": {
+    "Attachments_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -25,7 +25,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Attachments_Column1_1",
+      "Name": "Attachments_Column1",
       "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -93,7 +93,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "DataTable3_1": {
+    "DataTable3": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -143,7 +143,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "DataTable3_1",
+      "Name": "DataTable3",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -301,7 +301,7 @@
       "StyleName": "defaultDataTableStyle",
       "Type": "ControlInfo"
     },
-    "Icon1_10": {
+    "Icon1_14": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -380,7 +380,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Icon1_10",
+      "Name": "Icon1_14",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -508,7 +508,7 @@
       "StyleName": "defaultIconStyle",
       "Type": "ControlInfo"
     },
-    "Icon1_5": {
+    "Icon1_8": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Icon",
@@ -566,7 +566,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Icon1_5",
+      "Name": "Icon1_8",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -694,7 +694,7 @@
       "StyleName": "defaultIconStyle",
       "Type": "ControlInfo"
     },
-    "Image1_9": {
+    "Image1_15": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -743,7 +743,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image1_9",
+      "Name": "Image1_15",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -896,7 +896,7 @@
       "StyleName": "defaultImageStyle",
       "Type": "ControlInfo"
     },
-    "Label1_12": {
+    "Label1_14": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -976,7 +976,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label1_12",
+      "Name": "Label1_14",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1179,7 +1179,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "Ordered By_Column1_1": {
+    "Ordered By_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -1204,7 +1204,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Ordered By_Column1_1",
+      "Name": "Ordered By_Column1",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1272,7 +1272,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "OrdersCustomer": {
+    "OrdersAdmin": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1299,18 +1299,13 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "OrdersCustomer",
+      "Name": "OrdersAdmin",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Design",
-          "PropertyName": "Width",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Height",
+          "PropertyName": "Fill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1320,17 +1315,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Fill",
+          "PropertyName": "Height",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "LoadingSpinner",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "LoadingSpinnerColor",
+          "PropertyName": "Width",
           "RuleProviderType": "Unknown"
         },
         {
@@ -1342,12 +1332,22 @@
           "Category": "Design",
           "PropertyName": "Orientation",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LoadingSpinner",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LoadingSpinnerColor",
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultScreenStyle",
       "Type": "ControlInfo"
     },
-    "Phone Number_Column1_1": {
+    "Phone Number_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -1372,7 +1372,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Phone Number_Column1_1",
+      "Name": "Phone Number_Column1",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1440,7 +1440,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Price Per Item_Column1_1": {
+    "Price Per Item_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -1465,7 +1465,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Price Per Item_Column1_1",
+      "Name": "Price Per Item_Column1",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1533,7 +1533,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Quantity_Column1_1": {
+    "Quantity_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -1558,7 +1558,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Quantity_Column1_1",
+      "Name": "Quantity_Column1",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1626,7 +1626,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Rectangle1_9": {
+    "Rectangle1_15": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1668,7 +1668,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Rectangle1_9",
+      "Name": "Rectangle1_15",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1751,7 +1751,7 @@
       "StyleName": "defaultRectangleStyle",
       "Type": "ControlInfo"
     },
-    "Shipping Address_Column1_1": {
+    "Shipping Address_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -1776,7 +1776,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Shipping Address_Column1_1",
+      "Name": "Shipping Address_Column1",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1844,7 +1844,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Title_Column1_1": {
+    "Title_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -1869,7 +1869,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Title_Column1_1",
+      "Name": "Title_Column1",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1937,7 +1937,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "Total Price_Column1_1": {
+    "Total Price_Column1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "FieldName",
@@ -1962,7 +1962,7 @@
       "IsLocked": true,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Total Price_Column1_1",
+      "Name": "Total Price_Column1",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2031,5 +2031,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "OrdersCustomer"
+  "TopParentName": "OrdersAdmin"
 }

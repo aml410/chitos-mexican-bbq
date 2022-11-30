@@ -1,20 +1,20 @@
-OrdersCustomer As screen:
+OrdersAdmin As screen:
     Fill: =RGBA(255, 255, 255, 1)
 
-    Rectangle1_9 As rectangle:
+    Rectangle1_15 As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =143
         Width: =768
         ZIndex: =1
 
-    Image1_9 As image:
+    Image1_15 As image:
         Height: =143
         Image: ='Screenshot 2022-09-29 171820'
         Width: =179
         ZIndex: =2
 
-    Label1_12 As label:
+    Label1_14 As label:
         Align: =Align.Center
         Font: =Font.'Lato Black'
         Height: =116
@@ -25,7 +25,7 @@ OrdersCustomer As screen:
         Y: =13
         ZIndex: =3
 
-    Icon1_5 As icon.Home:
+    Icon1_8 As icon.Home:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Home
@@ -35,7 +35,7 @@ OrdersCustomer As screen:
         Y: =39
         ZIndex: =4
 
-    Icon1_10 As icon.Home:
+    Icon1_14 As icon.Home:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ShoppingCart
@@ -45,18 +45,18 @@ OrdersCustomer As screen:
         Y: =39
         ZIndex: =5
 
-    DataTable3_1 As dataTable.datatable:
+    DataTable3 As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =500
-        Items: =Filter('Product Order', 'Ordered By_Column1_1' 'Customer Home Page')
+        Items: ='Product Order'
         Width: =768
         X: =0
-        Y: =253
+        Y: =233
         ZIndex: =6
 
-        Title_Column1_1 As dataTableColumn.textualColumn:
+        Title_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Title"
             FieldName: ="Title"
@@ -70,7 +70,7 @@ OrdersCustomer As screen:
             Y: =0
             ZIndex: =1
 
-        Quantity_Column1_1 As dataTableColumn.numberColumn:
+        Quantity_Column1 As dataTableColumn.numberColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Quantity"
             FieldName: ="Quantity"
@@ -84,7 +84,7 @@ OrdersCustomer As screen:
             Y: =0
             ZIndex: =2
 
-        "'Total Price_Column1_1' As dataTableColumn.numberColumn":
+        "'Total Price_Column1' As dataTableColumn.numberColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Total Price"
             FieldName: ="TotalPrice"
@@ -98,7 +98,7 @@ OrdersCustomer As screen:
             Y: =0
             ZIndex: =3
 
-        "'Shipping Address_Column1_1' As dataTableColumn.textualColumn":
+        "'Shipping Address_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Shipping Address"
             FieldName: ="ShippingAddress"
@@ -112,7 +112,7 @@ OrdersCustomer As screen:
             Y: =0
             ZIndex: =4
 
-        "'Ordered By_Column1_1' As dataTableColumn.textualColumn":
+        "'Ordered By_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Ordered By"
             FieldName: ="OrderedBy"
@@ -126,7 +126,7 @@ OrdersCustomer As screen:
             Y: =0
             ZIndex: =5
 
-        "'Phone Number_Column1_1' As dataTableColumn.textualColumn":
+        "'Phone Number_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Phone Number"
             FieldName: ="PhoneNumber"
@@ -140,7 +140,7 @@ OrdersCustomer As screen:
             Y: =0
             ZIndex: =6
 
-        "'Price Per Item_Column1_1' As dataTableColumn.numberColumn":
+        "'Price Per Item_Column1' As dataTableColumn.numberColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Price Per Item"
             FieldName: ="PricePerItem"
@@ -154,7 +154,7 @@ OrdersCustomer As screen:
             Y: =0
             ZIndex: =7
 
-        Attachments_Column1_1 As dataTableColumn.textualColumn:
+        Attachments_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Attachments"
             FieldName: ="{Attachments}"
