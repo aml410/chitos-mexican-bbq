@@ -202,47 +202,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "OrdersCustomer.DataTable3_1.Attachments_Column1_1.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "OrdersCustomer.DataTable3_1.Attachments_Column1_1.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Attachments"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "OrdersCustomer",
-                "type": "OrdersCustomer.DataTable3_1.Attachments_Column1_1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Text",
-              "Table"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Shopping Cart'.Icon1_7.AccessibleLabel"
                 }
               ],

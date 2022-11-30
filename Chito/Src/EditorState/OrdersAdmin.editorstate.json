@@ -905,7 +905,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Ordered By_Column1",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1073,7 +1073,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Phone Number_Column1",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1166,7 +1166,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Price Per Item_Column1",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1477,7 +1477,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Shipping Address_Column1",
-      "ParentIndex": 6,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
