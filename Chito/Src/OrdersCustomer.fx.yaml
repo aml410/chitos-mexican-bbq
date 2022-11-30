@@ -50,7 +50,7 @@ OrdersCustomer As screen:
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =500
-        Items: =Filter('Product Order', 'Ordered By_Column1_1' 'Customer Home Page')
+        Items: =Filter('Product Order', 'Ordered By_Column1_1'.FieldDisplayName = User().FullName)
         Width: =768
         X: =0
         Y: =253
